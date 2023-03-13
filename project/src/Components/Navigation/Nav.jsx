@@ -82,6 +82,7 @@ const Nav = ({}) => {
               </a>
             </div>
 
+            {/* for 375px */}
             <div className={styles.phoneLogo}>
               <a href="tel:+7 (555) 888-98-66">
                 <img src={phone} alt="" />
@@ -91,10 +92,39 @@ const Nav = ({}) => {
             <div className={styles.vectorLogo}>
               <img src={Vector} alt="" />
             </div>
+
+            <div className={styles.hamburgermenu}>
+     
+       <input id={styles.menu__toggle} type="checkbox" />
+       
+    <label className={styles.menu__btn} for={styles.menu__toggle}>
+      <span></span>
+    </label>
+
+     
+    
+    
+
+    <ul className={styles.menu__box}>
+      <li><a className={styles.menu__item} href="#">Home</a></li>
+      <li><a className={styles.menu__item} href="#">About</a></li>
+      <li><a className={styles.menu__item} href="#">Team</a></li>
+      <li><a className={styles.menu__item} href="#">Contact</a></li>
+      <li><a className={styles.menu__item} href="#">Twitter</a></li>
+    </ul>
+  </div>
+
+
           </div>
 
           <div className={styles.assetsSecondBlock}>
             <Customlink to="/main">
+              <button className={styles.catalog}>
+                Главная
+              </button>
+            </Customlink>
+
+            <Customlink to="/catalogs">
               <button className={styles.catalog}>
                 Каталог товаров
               </button>

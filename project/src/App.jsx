@@ -4,6 +4,7 @@ import './App.css'
 import Nav from './Components/Navigation/Nav'
 import About from './Containers/About/About'
 import Blog from './Containers/Blog/Blog'
+import Catalogs from './Containers/Catalogs/Catalogs'
 import Contacts from './Containers/Contacts/Contacts'
 import Main from './Containers/Main/Main'
 import Portfolio from './Containers/Portfolio/Portfolio'
@@ -16,7 +17,9 @@ function App() {
     <div className="container">
       <Nav></Nav>
       <Routes>
+
         <Route path="/main" element={<Main/>}/>
+        <Route path="/catalogs" element={<Catalogs/>}/>
         <Route path="/services" element={<Service/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/blog" element={<Blog/>}/>
