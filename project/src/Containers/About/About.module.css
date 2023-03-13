@@ -1,0 +1,41 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap');
+
+.aboutGlavCon{
+    margin:0 auto;
+    width: 1500px;
+    height: 100%;
+    background-color:  #EDEDF2;
+}
+.aboutTitle{
+    display: flex;
+    margin-top: 60px;
+    gap: 5px;
+}
+.aboutItem{
+text-decoration: none;    
+}
+.aboutItemTitl{
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color:  #828299;
+text-decoration: none;
+}
+.home{
+    height: 12px;
+    width: 13px
+}
+.slesh{
+    color:  #828299;
+}
+.aboutConInfo{
+    font-family: Montserrat;
+}
+.aboutInfoTitle{
+    width: 830px;
+    height:44px;
+}
