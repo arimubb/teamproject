@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1400px;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+}
+.vlog {
+  width: 130px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 66px;
+}
+.home {
+  width: 13.5px;
+}
+.slesh,
+.port {
+  font-size: 14px;
+  color: #828299;
+}
+.title {
+  font-size: 50px;
+  margin-top: 22px;
+}
+.btns {
+  margin-top: 60px;
+  width: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
