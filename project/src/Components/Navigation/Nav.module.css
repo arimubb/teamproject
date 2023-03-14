@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 .container {
   font-family: Montserrat;
@@ -15,6 +15,7 @@
   font-size: 16px;
   padding: 14px;
   margin-left: 485px;
+  font-weight: bolder;
 }
 .button {
   text-decoration: none;
@@ -38,6 +39,8 @@
 }
 .assets {
   margin-left: 50px;
+  font-weight: bolder;
+
 }
 .logo {
   margin-left: 248.31px;
@@ -168,6 +171,8 @@
 } 
 .catalog{
   cursor: pointer;
+  font-weight: bolder;
+
   margin: 0px;
   font-family:Montserrat ;
   outline: none;
@@ -183,7 +188,16 @@
   background-color: #FF2E51;
   color: white;
 }
-
+/* burger */
+#menu__toggle{
+  visibility: hidden;
+  position: absolute;
+  left: 1px;
+}
+.menu__box{visibility: hidden;
+  position: absolute;
+  left: 1px;
+}
 
 @media screen and (max-width:376px) {
   /* навигация 1ая часть */
@@ -326,6 +340,7 @@
   }
   #menu__toggle {
     opacity: 0;
+    visibility: visible;
   }
   #menu__toggle:checked + .menu__btn > span {
     transform: rotate(45deg);
@@ -340,6 +355,7 @@
   }
   #menu__toggle:checked ~ .menu__box {
     left: 0 !important;
+    visibility: visible;
   }
   .burgerBnt{
     border: 1px solid red;
@@ -379,6 +395,7 @@
   .menu__box {
     display: block;
     position: fixed;
+    visibility: visible;
     top: 185px;
     left: -180%;
     width: 400px;
