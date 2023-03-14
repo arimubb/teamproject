@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 .container {
   font-family: Montserrat;
@@ -15,6 +15,7 @@
   font-size: 16px;
   padding: 14px;
   margin-left: 485px;
+  font-weight: bolder;
 }
 .button {
   text-decoration: none;
@@ -38,6 +39,8 @@
 }
 .assets {
   margin-left: 50px;
+  font-weight: bolder;
+
 }
 .logo {
   margin-left: 248.31px;
@@ -168,6 +171,8 @@
 } 
 .catalog{
   cursor: pointer;
+  font-weight: bolder;
+
   margin: 0px;
   font-family:Montserrat ;
   outline: none;
@@ -182,6 +187,16 @@
 .catalog:focus{
   background-color: #FF2E51;
   color: white;
+}
+/* burger */
+#menu__toggle{
+  visibility: hidden;
+  position: absolute;
+  left: 1px;
+}
+.menu__box{visibility: hidden;
+  position: absolute;
+  left: 1px;
 }
 
 @media screen and (max-width:376px) {
@@ -322,5 +337,88 @@
     position: absolute;
     left: 110px;
     top: 20px;
+  }
+  #menu__toggle {
+    opacity: 0;
+    visibility: visible;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+    visibility: visible;
+  }
+  .burgerBnt{
+    border: 1px solid red;
+  }
+  .menu__btn {
+    position: fixed;
+    top: 90px;
+    text-align: center;
+    left: 310px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid rgba(133, 130, 130, 0.448);
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    top: 25px;
+    background-color: #616161;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: visible;
+    top: 185px;
+    left: -180%;
+    width: 400px;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
   }
 }
