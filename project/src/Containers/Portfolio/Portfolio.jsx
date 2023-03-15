@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './Portfolio.module.css'
-import home from './img/Vector.png'
+import home from '../../../public/imgKiro/Vector.png'
 import Button from './UX/Button'
+import PortModal from './ModulImg/PortModal'
 
 const Portfolio = () => {
   return (
@@ -19,6 +20,7 @@ const Portfolio = () => {
         <Button text={'Виниловые обои'} />
         <Button text={'Фирменные обои'} />
       </div>
+      <PortModal />
     </div>
   )
 }
