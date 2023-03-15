@@ -30,12 +30,37 @@ text-decoration: none;
     width: 13px
 }
 .slesh{
+
     color:  #828299;
 }
 .aboutConInfo{
+    margin-top: 22px;
     font-family: Montserrat;
 }
 .aboutInfoTitle{
     width: 830px;
     height:44px;
 }
+/* контейнер2 */
+.aboutDescription{
+    display: flex;
+    column-gap: 100px;
+    margin-top: 80px;
+}
+.descImg{
+    width: 710px;
+    height: 566px;
+}
+.descTitle{
+    font-size: 40px;
+    font-family: Montserrat;
+}
+.descText{
+    font-family: Montserrat;
+    line-height: 25px;
+    margin-bottom: 70px;
+    width:590px ;
+    height: 52px;
+    font-size: 16px;
+}
+/* конец 2 контейнер */

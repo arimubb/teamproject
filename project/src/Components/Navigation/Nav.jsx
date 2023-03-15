@@ -97,7 +97,7 @@ const Nav = ({}) => {
      
        <input id={styles.menu__toggle} type="checkbox" />
        
-    <label className={styles.menu__btn} for={styles.menu__toggle}>
+    <label className={styles.menu__btn} htmlFor={styles.menu__toggle}>
       <span></span>
     </label>
 
