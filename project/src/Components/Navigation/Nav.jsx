@@ -92,7 +92,7 @@ const Nav = ({}) => {
             <div className={styles.vectorLogo}>
               <img src={Vector} alt="" />
             </div>
-    
+
             <div className={styles.hamburgermenu}>
               <input
                 id={styles.menu__toggle}
@@ -101,7 +101,7 @@ const Nav = ({}) => {
 
               <label
                 className={styles.menu__btn}
-                for={styles.menu__toggle}
+                htmlFor={styles.menu__toggle}
               >
                 <span></span>
               </label>
