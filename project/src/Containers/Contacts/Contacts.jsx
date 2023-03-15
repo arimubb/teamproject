@@ -1,20 +1,25 @@
 import React from 'react'
 import styles from './Contacts.module.css'
-import home from './image/homeIslam.png'
-import ins from '../Contacts/image/ins.png'
-import teleg from '../Contacts/image/teleg.png'
-import wat from '../Contacts/image/wat.png'
-import carta from '../Contacts/image/carta.png'
-import scif from '../Contacts/image/scif.png'
-import krolik from '../Contacts/image/img.png'
-import vec from '../Contacts/image/vec.png'
+// import homeimg from '../../public/img/homeislam.png'
+// import ins from '../../public/image/ins.png'
+// import teleg from '../../public/image/teleg.png'
+// import wat from '../../public/image/wat.png'
+// import carta from '../../public/image/carta.png'
+// import scif from '../../public/image/scif.png'
+// import krolik from '../../public/image/krolik.png'
+// import vec from '../../public/image/vec.png'
 
 const Contacts = () => {
+  const retis = () =>{
+    alert('Заявка отправлена')
+  }
+
+
   return (
     <div className={styles.container}>
 
     <div className={styles.main}>
-   <img className={styles.img1}  src={home} alt="" />
+   <img className={styles.img1}  src="../../public/img/homeislam.png" alt="000" />
        <span className={styles.slesh}> / </span>  <h1>Контакты</h1>
     </div>
     <h2 className={styles.con}>Контакты</h2>
@@ -38,22 +43,22 @@ const Contacts = () => {
       <div className={styles.icons}>
         <div className={styles.inst}>
         <a href="https://www.instagram.com/stenoprint/">
-                <img src={ins} alt="" />
+                <img src="../../public/img/ins.png" alt="" />
               </a>
         </div>
         <div className={styles.teleg}>
-       <img src={teleg} alt="" />
+       <img src="../../public/img/teleg.png" alt="" />
         </div>
         <div className={styles.wat}>
-       <img src={wat} alt="" />
+       <img src="../../public/img/wat.png" alt="" />
         </div>
       </div>
       <p className={styles.ptn}>Время работы: <br />
 Пн - Пт: 9:00 - 18:00</p>
       </div>
       <div className={styles.blk3}>
-      <img className={styles.scif} src={scif} alt="" />
-        <img className={styles.img2} src={carta} alt="" />
+      <img className={styles.scif} src="../../public/img/scif.png" alt="" />
+        <img className={styles.img2} src="../../public/img/carta.png" alt="" />
       </div>
     </div>
 
@@ -75,13 +80,13 @@ const Contacts = () => {
       </div>
       </div>
       <div className={styles.cov}>
-      <button className={styles.btn}>Отправить заявку</button>
+      <button onClick={retis} className={styles.btn}>Отправить заявку</button>
       <p className={styles.sullka}>Нажимая «отправить», я даю согласие на <a href="#"> обработку персональных данных</a></p>
       </div>
      </div>
      <div className={styles.image}>
-      <img className={styles.vec} src={vec} alt="" />
-      <img className={styles.img3} src={krolik} alt="" />
+      <img className={styles.vec} src="../../public/img/vec.png" alt="" />
+      <img className={styles.img3} src="../../public/img/krolik.png" alt="" />
      </div>
       </div>
     </div>

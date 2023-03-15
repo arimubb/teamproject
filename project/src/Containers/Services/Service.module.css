@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.container2 {
+    margin-left: 278.31px;
+    margin-top: 62px;
+}
+@media screen and (max-width:375px) {
+    .container {
+        margin-left: 18px;
+    }
+}
+.main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.uslugi {
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color:  #828299;
+
+}
+
+
+/* .img1 {
+    height: 12px;
+    width: 13px;
+} */
+
+.slesh2 {
+color:  #828299;
+    
+}
+.con2 {
+height: 65px;
+width: 110px;
+margin-top: 22px;
+font-family: Montserrat;
+font-size: 50px;
+font-weight: 600;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: left;
+border-radius: nullpx;
+
+}
+@media screen and (max-width:375px) {
+    .con2 {
+        font-size: 30px;
+        margin-top: 13px;
+    }
+}
+
+
+.ispol {
+    height: 44px;
+    width: 830px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828299;
+    margin-top: 20px;
+}
+
+
+.block10 {
+    display: flex;
+    margin-top: 120px;
+}
+.text {
+    position: relative;
+    margin-left: 130px;
+}
+.golovka {
+    height: 156px;
+    width: 650px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;    
+font-family: MOntserrat;
+font-size: 40px;
+font-weight: 600;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+    
+}
+
+.lovka {
+    height: 154px;
+width: 590px;
+margin-top: 20px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #828299;
+}
+
+.sullka2 {
+    position: absolute;
+    height: 22px;
+   width: 200px;
+   top: 350px;
+     border-radius: nullpx;    
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+text-decoration: none;
+letter-spacing: 0em;
+text-align: left;
+color: #FF2E51;
+
+}
+
+.span1 {
+    margin-left: 11px;
+}
+
+.text1 {
+    position: relative;
+   
+}
+
+.immg {
+    margin-left: 60px;
+}
