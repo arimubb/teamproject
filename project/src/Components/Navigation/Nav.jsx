@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from 'react'
 import styles from './Nav.module.css'
 import logo from '../resurs/image/logo.png'
 import Vector from '../resurs/Icons/Vector.png'
@@ -101,7 +101,7 @@ const Nav = ({}) => {
 
               <label
                 className={styles.menu__btn}
-                htmlFor={styles.menu__toggle}
+                for={styles.menu__toggle}
               >
                 <span></span>
               </label>
