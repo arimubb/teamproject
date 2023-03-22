@@ -1,89 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap');
-
-.aboutGlavCon{
-    margin:0 auto;
-    width: 1500px;
-    height: 100%;
-    background-color:  #EDEDF2;
+.aboutGlavCon {
+  margin: 0 auto;
+  width: 1500px;
+  height: 100%;
+  background-color: #ededf2;
 }
-.aboutTitle{
-    display: flex;
-    margin-top: 60px;
-    gap: 5px;
+.aboutTitle {
+  display: flex;
+  margin-top: 60px;
+  gap: 5px;
 }
-.aboutItem{
-text-decoration: none;    
+.aboutItem {
+  text-decoration: none;
 }
-.aboutItemTitl{
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color:  #828299;
-text-decoration: none;
+.aboutItemTitl {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828299;
+  text-decoration: none;
 }
-.home{
-    height: 12px;
-    width: 13px
+.home {
+  height: 12px;
+  width: 13px;
 }
-.slesh{
-
-    color:  #828299;
+.slesh {
+  color: #828299;
 }
-.aboutConInfo{
-    margin-top: 22px;
-    font-family: Montserrat;
+.aboutConInfo {
+  margin-top: 22px;
+  font-family: Montserrat;
 }
-.aboutInfoTitle{
-    width: 830px;
-    height:44px;
-    margin-top: 20px;
+.aboutInfoTitle {
+  width: 830px;
+  height: 44px;
+  margin-top: 20px;
 }
 /* контейнер2 */
-.aboutDescription{
-    display: flex;
-    column-gap: 100px;
-    margin-top: 80px;
+.aboutDescription {
+  display: flex;
+  column-gap: 100px;
+  margin-top: 80px;
 }
-.descImg{
-    width: 710px;
-    height: 566px;
+.descImg {
+  width: 710px;
+  height: 566px;
 }
-.descTitle{
-    margin-bottom: 20px;
-    font-size: 40px;
-    font-family: Montserrat;
+.descTitle {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: Montserrat;
 }
-.descText{
-    font-family: Montserrat;
-    line-height: 25px;
-    margin-bottom: 80px;
-    width:590px ;
-    height: 52px;
-    font-size: 16px;
+.descText {
+  font-family: Montserrat;
+  line-height: 25px;
+  margin-bottom: 80px;
+  width: 590px;
+  height: 52px;
+  font-size: 16px;
 }
 /* конец 2 контейнер  */
-.aboutCard{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 155px;
+.aboutCard {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 155px;
 }
-.aboutRewiew{
-display: flex;
-}
-.aboutRewtext{
-    
-}
-.rewTitle{
-width: 300px;
-}
-.rewText{
-    width:400px ;
-}
-.rewVideo{
-    margin-left: 390px;
+.aboutRewiew {
+  display: flex;
 }
 
+.rewTitle {
+  width: 300px;
+}
+.rewText {
+  width: 400px;
+}
+.rewVideo {
+  margin-left: 390px;
+}

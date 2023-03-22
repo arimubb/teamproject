@@ -17,7 +17,6 @@ function App() {
     <div className="container">
       <Nav></Nav>
       <Routes>
-
         <Route path="/" element={<Main/>}/>
         <Route path="/catalogs" element={<Catalogs/>}/>
         <Route path="/services" element={<Service/>}/>
