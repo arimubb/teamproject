@@ -11,6 +11,11 @@
     height: 433px;
     width: 350px;
     border-radius: 30px;
+    background: radial-gradient(
+    80.86% 83.87% at 0% 0%,
+    rgb(228, 222, 208) 0%,
+    rgb(255, 255, 255) 100%
+  );
     /* padding: 50px 40px 40px 40px; */
 }
 .imageCD{
