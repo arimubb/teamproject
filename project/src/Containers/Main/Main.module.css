@@ -26,10 +26,12 @@
   margin-top: 30px;
   font-family: Montserrat;
   border-bottom: solid 1px;
-  width: 130px;
+  width: 180px;
   color: black;
-  font-weight: 400;
-  font-size: 13px;
+ 
+  font-weight: 700;
+font-size: 16px;
+line-height: 140%;
   padding: 2px;
   margin-left: 100px;
   cursor: pointer;
@@ -110,9 +112,24 @@
   margin-top: 30px;
   width: 1430px;
   overflow-x: auto;
+  height: 650px;
 }
 .thirdCards::-webkit-scrollbar{
   width: 0px;
+}
+.showProducts{
+  margin-top: 10px;
+  font-family: Montserrat;
+  border-bottom: solid 1px;
+  width: 190px;
+  color: black;
+ 
+  font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+  padding: 2px;
+  margin-left: 1450px;
+  cursor: pointer;
 }
 @media screen and (max-width: 376px) {
   .designContainer {
@@ -162,5 +179,20 @@
     line-height: 140%;
     margin-left: 20px;
     width: 340px;
+  }
+  .popularContText{
+    margin-left: 20px;
+    font-size: 24px;
+    width: 300px;
+  }
+  .thirdCardsBtns{
+    margin-left: 10px; overflow-x: scroll;
+    font-size: 14px;
+  padding: 8px 13px;
+  }
+  .thirdCards{
+    width: 360px;
+    margin-left: 10px;
+    overflow-x: auto;
   }
 }

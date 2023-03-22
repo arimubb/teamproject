@@ -5,17 +5,22 @@
   font-family: Montserrat;
   width: 350px;
   border-radius: 30px;
-  height: 460px;
+  margin-top: 50px;
+  height: 480px;
   transition: 1s;
 }
-.container:hover{
-    height: 540px;
-    transition: .2s;
-    cursor: pointer;
+.container:hover {
+  height: 570px;
+  transition: 0.2s;
+  cursor: pointer;
 }
-.container:hover .hidden{
-    visibility: visible;
-    transition: .1s;
+.container:hover .hidden {
+  visibility: visible;
+  transition: 0.1s;
+}
+.container:hover .btnCont{
+  visibility: visible;
+  transition: 1s;
 }
 .firstBlock {
   display: flex;
@@ -46,15 +51,15 @@
   padding: 0 30px;
   color: #858794;
 }
-.hidden{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 25px;
-    margin-top: 30px;
-    text-align: center;
-    visibility: hidden;
-    transition: .1s;
+.hidden {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 25px;
+  margin-top: 20px;
+  text-align: center;
+  visibility: hidden;
+  transition: 0.1s;
 }
 .hiddenBtn {
   font-weight: 600;
@@ -67,13 +72,75 @@
   cursor: pointer;
   border-color: #85879437;
 }
-.hiddenLink{
-    font-family: Montserrat;
-    border-bottom: solid 1px;
-    width: auto;
-    color: black;
-    font-weight: 600;
-    font-size: 14px;
-    padding: 2px;
-    cursor: pointer;
+.hiddenLink {
+  font-family: Montserrat;
+  border-bottom: solid 1px;
+  width: auto;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 2px;
+  cursor: pointer;
+}
+.btnCont{
+  display: flex;
+  position: relative  ;
+  bottom: 330px;
+  gap: 10px;
+  left: 20px;
+  visibility: hidden;
+}
+.btn1 {
+  position: relative;
+  /* bottom: 330px; */
+  border-radius: 30px;
+  /* left: 20px; */
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.283);
+  background: linear-gradient(
+    133.97deg,
+    #ffcfe0 3.15%,
+    #e96796 22.8%,
+    #ef3c3c 85.51%
+  );
+}
+.btn2 {
+  position: relative;
+  /* bottom: 330px; */
+  border-radius: 30px;
+  /* left: 30px; */
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.283);
+  background: linear-gradient(
+    133.97deg,
+    #ffcfe0 3.15%,
+    #e96796 22.8%,
+    #ef3cd4 85.51%
+  );
+}
+.btn3 {
+  position: relative;
+  /* bottom: 330px; */
+    border-radius: 30px;
+  /* left: 40px; */
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.283);
+  background: linear-gradient(
+    133.97deg,
+    #ffcfe0 3.15%,
+    #7de967 22.8%,
+    #5aef3c 85.51%
+  );
 }

@@ -8,6 +8,13 @@ function ThirdCards(props,id) {
       <div className={styles.image}>
         {props.children}
       </div>
+        <div className={styles.btnCont}>
+           <button className={styles.btn1}>{props.sale}</button>
+        <button className={styles.btn2}>{props.famous}</button>
+        <button className={styles.btn3}>{props.new}</button>
+        </div>
+       
+
       <div className={styles.firstBlock}>
         <p className={styles.firstBlockTitle}>{props.title}</p>
         <p className={styles.firstBlockText}>{props.text}</p>
