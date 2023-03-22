@@ -1,9 +1,10 @@
 import React from 'react'
+import styles from './Modul.module.css'
 
 function Modal({ img }) {
   return (
     <div>
-      <img src={img} alt="" />
+      <img className={styles.oboi} src={img} alt="" />
     </div>
   )
 }
