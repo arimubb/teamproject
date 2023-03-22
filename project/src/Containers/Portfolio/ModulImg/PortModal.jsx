@@ -6,10 +6,32 @@ import second from '../../../../public/imgKiro/second.png'
 
 function PortModal() {
   return (
-    <div className={styles.container}>
-      <Modal img={first} />
-      <Modal img={second} />
-    </div>
+    <div>
+      <div className={styles.container}>
+        <Modal img={first} />
+        <Modal img={second} />
+        <Modal img={second} />
+        <Modal img={first} />
+        <Modal img={first} />
+        <Modal img={second} />
+        <Modal img={second} />
+        <Modal img={first} />
+        <Modal img={first} />
+        <Modal img={second} />
+        <Modal img={second} />
+        <Modal img={first} />
+      </div>
+      <div className={styles.container2}>
+        <Modal img={first} />
+        <Modal img={second} />
+        <Modal img={first} />
+        <Modal img={second} />
+        <Modal img={first} />
+        <Modal img={second} />
+        <Modal img={first} />
+        <Modal img={second} />
+      </div>
+    </div> 
   )
 }
 
