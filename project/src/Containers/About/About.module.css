@@ -40,6 +40,12 @@
   height: 44px;
   margin-top: 20px;
 }
+.aboutH2{
+font-family:Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+}
 /* контейнер2 */
 .aboutDescription {
   display: flex;
@@ -71,16 +77,69 @@
 }
 .aboutRewiew {
   display: flex;
-}
-.aboutRewtext {
-    width: 100px;
+  justify-content: space-between;
+  margin-top: 120px;
 }
 .rewTitle {
-  width: 300px;
+  width: 590px;
+  font-family:Montserrat  ;
+   font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
 }
 .rewText {
-  width: 400px;
+  width: 590px;
+  font-family:Montserrat ;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+
 }
-.rewVideo {
-  margin-left: 390px;
-}
+.aboutRewiew2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+  }
+  .rewTitle2 {
+    width: 590px;
+    font-family:Montserrat  ;
+     font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .rewText2 {
+    width: 590px;
+    font-family:Montserrat ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .aboutOurActivity{
+    margin-top:120px;
+  }
+  .OurScrollimg{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  .OurTitle{
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .OurText{
+    margin-top: 20px;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 590px;
+  }
+  
+  /* Адаптив */
+  /* @media screen and(max-width:375) {
+    
+  } */
