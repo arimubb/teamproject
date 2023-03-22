@@ -2,6 +2,12 @@ import React from 'react'
 import styles from './About.module.css'
 import home from '../../../public/iconsBelya/homeBelek.png'
 import desc from '../../../public/imgBelya/about__studio-image.png'
+import Card from './cardBL/Card'
+import serviceCD1 from '../../../public/imgBelya/services-image-1.png'
+import serviceCD2 from '../../../public/imgBelya/services-image-2.png'
+import serviceCD3 from '../../../public/imgBelya/services-image-3.png'
+import serviceCD4 from '../../../public/imgBelya/services-image-4.png'
+import rewiew from '../../../public/imgBelya/image 29.png'
 // belya
 const About = () => {
   return (
@@ -40,9 +46,17 @@ const About = () => {
           </div>
          </div>
         </div>
-
-
-
+        <div className={styles.aboutCard}>
+          <Card img={serviceCD1} title={"Создаем красивые стены"} text={"Используем различные технологии нанесения изображений. В нашем арсенале немецкое оборудование, Итальянские технологии холодного трансфера и другие бесшовные покрытия."}/>
+          <Card img={serviceCD2} title={"Можно нанести любое изображение"} text={"В зависимости от выбранной технологии разрешение печати нанесённого изображения может составлять до 1440 dpi"}/>
+          <Card img={serviceCD3} title={"Ваши стены - наш мольберт"} text={"Наши дизайнеры помогут с выбором качественного изображения либо создадут для вас индивидуальный проект с учётом ваших пожеланий."}/>
+          <Card img={serviceCD4} title={"Обновить стены без ремонта"} text={"С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи."}/>
+        </div>
+    <div className={styles.aboutRewiew}>
+   <div className={styles.aboutRewtext}><h2 className={styles.rewTitle}>Мы используем разные техники оформления</h2>
+   <p className={styles.rewText}>Разнообразный и богатый опыт говорит нам, что внедрение современных методик представляет собой интересный эксперимент проверки кластеризации усилий. Предварительные выводы неутешительны: базовый вектор развития создаёт предпосылки для дальнейших направлений развития. Не следует, однако, забывать, что граница обучения кадров прекрасно подходит для реализации своевременного выполнения сверхзадачи. Разнообразный и богатый опыт говорит нам, что высокое качество позиционных исследований, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для позиций, занимаемых участниками в отношении поставленных задач.</p></div>
+   <img className={styles.rewVideo} src={rewiew} alt="" />
+    </div>
 
     </div>
   )
