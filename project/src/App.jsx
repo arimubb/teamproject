@@ -18,8 +18,11 @@ function App() {
       <Nav></Nav>
       <Routes>
 
+        <Route path="/" element={<Main/>}/>
+
         <Route path='/' element={<Main/>}/>
         <Route path="/main" element={<Main/>}/>
+
         <Route path="/catalogs" element={<Catalogs/>}/>
         <Route path="/services" element={<Service/>}/>
         <Route path="/about" element={<About/>}/>
