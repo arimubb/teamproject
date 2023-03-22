@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+.container {
+  background-color: white;
+  font-family: Montserrat;
+  width: 350px;
+  border-radius: 30px;
+  height: 460px;
+  transition: 1s;
+}
+.container:hover{
+    height: 540px;
+    transition: .2s;
+    cursor: pointer;
+}
+.container:hover .hidden{
+    visibility: visible;
+    transition: .1s;
+}
+.firstBlock {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 30px;
+  color: #192040;
+}
+.firstBlockTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+}
+.firstBlockText {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 130%;
+}
+.secondBlock {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding: 0 30px;
+  color: #858794;
+}
+.hidden{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px;
+    margin-top: 30px;
+    text-align: center;
+    visibility: hidden;
+    transition: .1s;
+}
+.hiddenBtn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #ff2e51;
+  color: white;
+  cursor: pointer;
+  border-color: #85879437;
+}
+.hiddenLink{
+    font-family: Montserrat;
+    border-bottom: solid 1px;
+    width: auto;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 2px;
+    cursor: pointer;
+}
