@@ -72,7 +72,9 @@
 .aboutRewiew {
   display: flex;
 }
-
+.aboutRewtext {
+    width: 100px;
+}
 .rewTitle {
   width: 300px;
 }
