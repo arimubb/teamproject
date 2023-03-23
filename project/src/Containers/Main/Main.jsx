@@ -17,6 +17,8 @@ import foto9 from '../../Components/UI/ThirdCards/images/image8.png'
 import foto10 from '../../Components/UI/ThirdCards/images/image9.png'
 import foto11 from '../../Components/UI/ThirdCards/images/image10.png'
 import foto12 from '../../Components/UI/ThirdCards/images/image11.png'
+import ForthCards from '../../Components/UI/ForthCardsModal/ForthCards'
+import foto13 from '../../Components/UI/ForthCardsModal/images/imag1.png'
 
 
 
@@ -146,7 +148,7 @@ function Main  ()  {
               Дизайнерские обои
             </button>
             <button className={styles.buttons}>
-              <a href="#1">Виниловые обои</a> 
+              Виниловые обои 
             </button>
             <button className={styles.buttons}>
               Фирменные обои
@@ -154,34 +156,49 @@ function Main  ()  {
           </div>
           {/* блок№6 карточки3  */}
         <div className={styles.thirdCards}>
-          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2'>
+          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2' sale='-25%' famous='-' new='Новинка'>
             <img src={foto9} alt="" />
           </ThirdCards>
-          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2'>
+          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2'sale='-25%' famous='Популярное' new='Новинка' >
             <img src={foto10} alt="" />
           </ThirdCards>
-          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2'>
+          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2' sale='-25%' famous='Популярное' new='Новинка'>
             <img src={foto11} alt="" />
           </ThirdCards>
-          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2'>
+          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2' sale='-25%' famous='Популярное' new='Новинка'>
             <img src={foto12} alt="" />
           </ThirdCards>
 
-          <ThirdCards id='first' title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2'>
+          <ThirdCards id='first' title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2' sale='-15%' famous='-' new='--'>
             <img src={foto12} alt="" />
           </ThirdCards>
           <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2'>
             <img src={foto12} alt="" />
           </ThirdCards>
-          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2'>
-            <img src={foto12} alt="" />
-          </ThirdCards>
-          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2'>
-            <img src={foto12} alt="" />
-          </ThirdCards>
+          
         </div>
+{/* блок№7 смотреть  товары */}
+        <Link to='/catalogs'>
+          <p className={styles.showProducts}>
+          Смотреть все товары
+          </p>
+          </Link>
+{/* блок№8 место */}
+          <div className={styles.placeCont}>
+        <h2 className={styles.placeContTitle}>
+        Место применения
+        </h2>
+        <p className={styles.placeContText}>
+        С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи.
+        </p>
+      </div>
 
+    {/* блок№9 карточки с модальным окном */}
+    <div className={styles.forthCards}>
+      <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
+        <img src={foto13} alt=""/> </ForthCards>
     </div>
+      </div>
   )
 }
 
