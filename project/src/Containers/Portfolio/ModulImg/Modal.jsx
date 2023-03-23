@@ -3,7 +3,7 @@ import styles from './Modul.module.css'
 
 function Modal({ img }) {
   return (
-    <div>
+    <div className={styles.contImg}>
       <img className={styles.oboi} src={img} alt="" />
     </div>
   )
