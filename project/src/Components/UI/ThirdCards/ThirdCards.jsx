@@ -14,7 +14,7 @@ function ThirdCards(props,id) {
         <button className={styles.btn3}>{props.new}</button>
         </div>
        
-
+    
       <div className={styles.firstBlock}>
         <p className={styles.firstBlockTitle}>{props.title}</p>
         <p className={styles.firstBlockText}>{props.text}</p>
