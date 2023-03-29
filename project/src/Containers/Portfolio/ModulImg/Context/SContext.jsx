@@ -1,20 +1,18 @@
 import React from 'react'
 import './context.css'
-import first from "../../../../../public/imgKiro/first.png"
+import second from "../../../../../public/imgKiro/second.png"
 import krest from "../../../../../public/imgKiro/krest.png"
 import ava from "../../../../../public/imgKiro/ava.png"
 
-
-
-function Context({active, setActive}) {
+function SContext({Sactive, SsetActive}) {
   return (
-    <div className={active ? "modal active" : "modal"} onClick={() => setActive(false)}>
+    <div className={Sactive ? "modal active" : "modal"} onClick={() => SsetActive(false)}>
         <div className="modal__content" onClick={e => e.stopPropagation()}>
-          <img className='imgModal' src={first} alt="" />
+          <img className='imgModal' src={second} alt="" />
           <div className="modalText">
             <div className="SR">
               <h3 className='modalTitle'>Зеркальные тонирующие пленки серии SR PS</h3>
-              <button onClick={() => setActive(false)} className='krest'><img src={krest} alt="" /></button>
+              <button onClick={() => SsetActive(false)} className='krest'><img src={krest} alt="" /></button>
             </div>
             <div className="ava">
               <img src={ava} />
@@ -24,7 +22,7 @@ function Context({active, setActive}) {
               </div>
               <span className='priceText'>
                   <p className='price'>552 ₽ /</p>
-                  <p>м2</p> 
+                  <p>м2</p>
                 </span>
             </div>
             <span className='spanText'>
@@ -36,4 +34,4 @@ function Context({active, setActive}) {
   )
 }
 
-export default Context
+export default SContext
