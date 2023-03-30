@@ -8,6 +8,7 @@
   height: 100%;
   font-family: 'Montserrat', sans-serif;
   margin: auto;
+  /* background-color: #FAF8F5; */
 }
 .vlog {
   width: 130px;
@@ -26,8 +27,10 @@
   color: #828299;
 }
 .title {
+  font-weight: 600;
   font-size: 50px;
-  margin-top: 22px;
+  margin-top: 28px;
+  color: #192040;
 }
 .btns {
   margin-top: 60px;
