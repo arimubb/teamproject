@@ -150,13 +150,46 @@
   line-height: 140%;
   color: #828299;
 }
+.forthCards {
+  display: grid;
+  grid-template-columns: 710px 710px;
+  grid-template-rows: 515px 515px;
+  gap: 30px 10px;
+}
+.appTitle {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+}
+.appText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #828299;
+  width: 500px;
+  margin-top: 20px;
+}
 @media screen and (max-width: 376px) {
+  .showProducts {
+    margin-left: 80px;
+  }
+  .foto13 {
+    width: 1px;
+    height: 1px;
+  }
+  .forthCards {
+    display: grid;
+    grid-template-columns: 1px;
+    grid-template-rows: 1px 1px 1px 1px;
+    visibility: hidden;
+  }
   .designContainer {
     position: absolute;
     width: 1px;
     height: 1px;
     left: 1px;
-    visibility: hidden;
+    /* visibility: hidden; */
   }
   .firstContText {
     position: absolute;
@@ -205,14 +238,38 @@
     width: 300px;
   }
   .thirdCardsBtns {
-    margin-left: 10px;
+    margin-left: 5px;
     overflow-x: scroll;
     font-size: 14px;
     padding: 8px 13px;
   }
   .thirdCards {
-    width: 360px;
-    margin-left: 10px;
+    width: 370px;
+    margin-left: 1px;
     overflow-x: auto;
+  }
+  .placeCont {
+    position: absolute;
+    width: 1px;
+    font-size: 1px;
+    height: 1px;
+    left: 1px;
+    visibility: hidden;
+  }
+  .placeContText {
+    position: absolute;
+    width: 1px;
+    font-size: 1px;
+    height: 1px;
+    left: 1px;
+    visibility: hidden;
+  }
+  .placeContTitle {
+    position: absolute;
+    width: 1px;
+    font-size: 1px;
+    height: 1px;
+    left: 1px;
+    visibility: hidden;
   }
 }
