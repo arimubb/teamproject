@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Footer from './Components/Footer/Footer'
 import Nav from './Components/Navigation/Nav'
 import About from './Containers/About/About'
 import Blog from './Containers/Blog/Blog'
@@ -20,6 +21,12 @@ function App() {
       <Routes>
 
         <Route path="/" element={<Main/>}/>
+
+
+        <Route path='/' element={<Main/>}/>
+        <Route path="/main" element={<Main/>}/>
+
+
         <Route path="/catalogs" element={<Catalogs/>}/>
         <Route path="/services" element={<Service/>}/>
         <Route path="/about" element={<About/>}/>
@@ -28,6 +35,7 @@ function App() {
         <Route path="/contacts" element={<Contacts/>}/>
         <Route path="/service_detail" element={<Service_detal/>}/>
       </Routes>
+      <Footer></Footer>
     </div>
       
     
