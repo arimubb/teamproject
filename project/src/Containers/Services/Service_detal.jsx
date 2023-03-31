@@ -39,7 +39,7 @@ import styles from './Service_detal.module.css'
     {/*  */}
 
       <div className={styles.disegn}>
-        <img className={styles.umg} src="../../public/img/img (2).png" alt="" />
+        <img className={styles.umg} src="../../public/img/img(2).png" alt="" />
         <div className={styles.besigns}>
           <p className={styles.porag1}>Дизайнерские обои вашей мечты</p>
           <p className={styles.porag2}>Но базовый вектор развития влечет за собой процесс внедрения и модернизации соответствующих условий активизации. В целом, конечно, сплочённость команды профессионалов требует определения и уточнения поставленных обществом задач.</p>
@@ -63,25 +63,25 @@ import styles from './Service_detal.module.css'
 
 <div className={styles.cards}>
        <div className={styles.card1}>
-        <img className={styles.avka} src="../../public/img/image 18 (1).png" alt="" />
+        <img className={styles.avka} src="../../public/img/image18(1).png" alt="" />
        <p className={styles.nad}>Создаем красивые стены</p>
       <p className={styles.nadney}>Используем различные технологии нанесения изображений. В нашем арсенале немецкое оборудование, Итальянские технологии холодного трансфера и другие бесшовные покрытия.</p>
        </div>
 
        <div className={styles.card1}>
-        <img className={styles.avka} src="../../public/img/image 21 (1).png" alt="" />
+        <img className={styles.avka} src="../../public/img/image21(1).png" alt="" />
        <p className={styles.nad}>Можно нанести любое изображение</p>
       <p className={styles.nadney}>В зависимости от выбранной технологии разрешение печати нанесённого изображения может составлять до 1440 dpi</p>
        </div>
 
        <div className={styles.card1}>
-        <img className={styles.avka} src="../../public/img/image 16.png" alt="" />
+        <img className={styles.avka} src="../../public/img/image16.png" alt="" />
        <p className={styles.nad}>Ваши стены - наш мольберт</p>
       <p className={styles.nadney}>Наши дизайнеры помогут с выбором качественного изображения либо создадут для вас индивидуальный проект с учётом ваших пожеланий.</p>
        </div>
 
        <div className={styles.card1}>
-        <img className={styles.avka} src="../../public/img/image 17.png" alt="" />
+        <img className={styles.avka} src="../../public/img/image17.png" alt="" />
        <div className={styles.ggf}>
        <p className={styles.nad}>Обновить стены без ремонта</p>
       <p className={styles.nadney}>С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи.</p>
@@ -103,7 +103,7 @@ import styles from './Service_detal.module.css'
   <p className={styles.bogatyi}>Разнообразный и богатый опыт говорит нам, что внедрение современных методик представляет собой интересный эксперимент проверки кластеризации усилий. Предварительные выводы неутешительны: базовый вектор развития создаёт предпосылки для дальнейших направлений развития. Не следует, однако, забывать, что граница обучения кадров прекрасно подходит для реализации своевременного выполнения сверхзадачи. Разнообразный и богатый опыт говорит нам, что высокое качество позиционных исследований, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для позиций, занимаемых участниками в отношении поставленных задач.</p>
   </div>
   <div className={styles.blk123}>
-   <button className={styles.button_vd}><a href="https://youtu.be/P5AupXIhGHk"><img src="../../public/img/vector (14).png" alt="" /></a></button>
+   <button className={styles.btn_vd}><a href="https://youtu.be/P5AupXIhGHk"><img src="../../public/img/vector(14).png" alt="" /></a></button>
   </div>
    </div>
 
@@ -128,7 +128,7 @@ import styles from './Service_detal.module.css'
    <div className={styles.svideo}>
    <div className={styles.blk123}>
    {/* <a href="https://youtu.be/P5AupXIhGHk"> <button className={styles.button_vd1}><img src="../../public/img/vector (14).png" alt="" /></button></a> */}
-  <button className={styles.button_vd}> <a href="https://youtu.be/P5AupXIhGHk"><img src="../../public/img/vector (14).png" alt="" /></a></button>
+  <button className={styles.button_vd}> <a href="https://youtu.be/P5AupXIhGHk"><img src="../../public/img/vector(14).png" alt="" /></a></button>
   </div>
     <div className={styles.blk12}>
      <p className={styles.mu_raznue}>Мы используем разные техники оформления</p>
@@ -205,7 +205,7 @@ import styles from './Service_detal.module.css'
         <div className={styles.odeal}>
           <h1 className={styles.nam}>Отправьте нам свой дизайн на проверку или создайте собственный дизайн обоев</h1>
              <h1 className={styles.nash}>Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время и ответит на все интересующие вопросы.</h1>
-            <img className={styles.grop} src="../../public/img/Group 3 (1).png" alt="" />
+            <img className={styles.grop} src="../../public/img/gramka.png" alt="" />
              </div>
 
              <div className={styles.odeal2}>
@@ -213,7 +213,7 @@ import styles from './Service_detal.module.css'
              <button className={styles.proverka}> Да, отправить на проверку</button>
              <button className={styles.ne_nujno}>Нет, нужна помощь дизайнера</button>
             <h4 className={styles.zag_bash}>Загрузите ваш дизайн:</h4>
-            <button className={styles.file}> <div className={styles.rr}><img  src="../../public/img/Vector (15).png" alt="" /><p className={styles.lion}>Прикрепить файл...</p></div></button>
+            <button className={styles.file}> <div className={styles.rr}><img  src="../../public/img/Vector(15).png" alt="" /><p className={styles.lion}>Прикрепить файл...</p></div></button>
             <h4 className={styles.zag_bash}>Ваше имя: </h4>
            <input className={styles.fil1e} type="text" name="" id="" placeholder='Иван'/>
            <h4 className={styles.zag_bash}>Номер телефона: </h4>
