@@ -17,6 +17,11 @@ import foto9 from '../../Components/UI/ThirdCards/images/image8.png'
 import foto10 from '../../Components/UI/ThirdCards/images/image9.png'
 import foto11 from '../../Components/UI/ThirdCards/images/image10.png'
 import foto12 from '../../Components/UI/ThirdCards/images/image11.png'
+import ForthCards from '../../Components/UI/ForthCardsModal/ForthCards'
+import foto13 from '../../Components/UI/ForthCardsModal/images/imag1.png'
+import foto14 from '../../Components/UI/ForthCardsModal/images/imag2.png'
+import Application from '../../Components/UI/Application/Application'
+
 
 
 
@@ -175,12 +180,45 @@ function Main  ()  {
           </ThirdCards>
           
         </div>
-
+{/* блок№7 смотреть  товары */}
         <Link to='/catalogs'>
           <p className={styles.showProducts}>
           Смотреть все товары
           </p>
           </Link>
+{/* блок№8 место */}
+          <div className={styles.placeCont}>
+        <h2 className={styles.placeContTitle}>
+        Место применения
+        </h2>
+        <p className={styles.placeContText}>
+        С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи.
+        </p>
+      </div>
+
+    {/* блок№9 карточки с модальным окном */}
+    <div className={styles.forthCards}>
+      <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
+        <img className={styles.foto13} src={foto13} alt=""/> 
+        </ForthCards>
+        <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
+        <img className={styles.foto13}  src={foto14} alt=""/> 
+        </ForthCards>
+        <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
+        <img className={styles.foto13}  src={foto13} alt=""/> 
+        </ForthCards>
+        <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
+        <img className={styles.foto13}  src={foto14} alt=""/> 
+        </ForthCards>
+    </div>
+
+
+      {/* блок№10 заявка */}
+        <div className={styles.Application}>
+          <Application></Application>
+        </div>
+      
+
       </div>
   )
 }

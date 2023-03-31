@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+.container {
+  font-family: Montserrat;
+  display: flex;
+  background: radial-gradient(
+        25.54% 71.56% at 71.36% 78.16%,
+        rgba(211, 229, 207, 0.3) 0%,
+        rgba(211, 229, 207, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        35.81% 100% at 0% 100%,
+        rgba(207, 213, 229, 0.3) 0%,
+        rgba(207, 213, 229, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        60.59% 64.89% at 0% 0%,
+        rgba(255, 181, 61, 0.1) 0%,
+        rgba(255, 181, 61, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #fffefc;
+  width: 1440px;
+  margin-left: 240px;
+  border-radius: 50px;
+  margin-top: 130px;
+}
+.block1First {
+  margin-top: 60px;
+  margin-left: 120px;
+}
+.title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  width: 550px;
+  margin-top: 20px;
+  color: #828299;
+}
+.block1Second {
+  margin-top: 50px;
+  margin-left: 120px;
+  display: flex;
+  gap: 10px;
+}
+.input1Title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #828299;
+}
+.inp {
+  font-size: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  border: 2px solid #ededf2;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 350px;
+  padding: 20px 25px;
+  text-decoration: none;
+  outline: none;
+}
+.inp:invalid {
+  border: 2px solid #e70707;
+  animation: invalid 0.3s 2;
+}
+.opisanie {
+  color: #828299;
+  width: 350px;
+  margin-top: 40px;
+}
+@keyframes invalid {
+  25% {
+    translate: 6px 0;
+  }
+  50% {
+    translate: -6px 0;
+  }
+  75% {
+    translate: 6px 0;
+  }
+}
+.btn {
+  margin-left: 120px;
+  margin-top: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.037);
+  padding: 20px 50px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  line-height: 140%;
+  background: linear-gradient(
+    133.97deg,
+    #c2ccff 3.15%,
+    #465edb 22.8%,
+    #3147ba 85.51%
+  );
+  transition: 1s;
+}
+.btn:hover {
+  background: #fa052e;
+  transition: 1s;
+  box-shadow: 0px 25px 10px -15px #ff0d35;
+}
+.block1Third {
+  display: flex;
+  gap: 30px;
+}
+.foto1 {
+  width: 503px;
+  border-top-right-radius: 50px;
+}
+
+@media screen and (max-width: 376px) {
+  .container {
+    width: 365px;
+    height: 550px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .opisanie {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .block1 {
+    margin-left: 1px;
+  }
+  .block1First {
+    margin-left: 30px;
+    font-weight: 600;
+    width: 300px;
+    font-size: 21px;
+    line-height: 130%;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .text {
+    font-weight: 400;
+    font-size: 14px;
+    width: 290px;
+    line-height: 140%;
+  }
+  .block1Second {
+    display: block;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .inp {
+    width: 260px;
+    height: 40px;
+    padding: 10px;
+    font-size: 13px;
+  }
+  .foto1 {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: 1px;
+    visibility: hidden;
+  }
+  .block1Third {
+    display: block;
+  }
+  .btn {
+    margin-left: 30px;
+    width: 284px;
+  }
+}
