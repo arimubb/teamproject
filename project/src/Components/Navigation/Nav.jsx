@@ -94,10 +94,33 @@ const Nav = ({}) => {
             </div>
 
             <div className={styles.hamburgermenu}>
+
+     
+       <input id={styles.menu__toggle} type="checkbox" />
+       
+    <label className={styles.menu__btn} htmlFor={styles.menu__toggle}>
+      <span></span>
+    </label>
+
+     
+    
+    
+
+    <ul className={styles.menu__box}>
+      <li><a className={styles.menu__item} href="#">Home</a></li>
+      <li><a className={styles.menu__item} href="#">About</a></li>
+      <li><a className={styles.menu__item} href="#">Team</a></li>
+      <li><a className={styles.menu__item} href="#">Contact</a></li>
+      <li><a className={styles.menu__item} href="#">Twitter</a></li>
+    </ul>
+  </div>
+
+
               <input
                 id={styles.menu__toggle}
                 type="checkbox"
               />
+
 
               <label
                 className={styles.menu__btn}
@@ -137,7 +160,7 @@ const Nav = ({}) => {
           </div>
 
           <div className={styles.assetsSecondBlock}>
-            <Customlink to="/main">
+            <Customlink to="/">
               <button className={styles.catalog}>
                 Главная
               </button>

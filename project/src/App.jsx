@@ -10,6 +10,7 @@ import Contacts from './Containers/Contacts/Contacts'
 import Main from './Containers/Main/Main'
 import Portfolio from './Containers/Portfolio/Portfolio'
 import Service from './Containers/Services/Service'
+import Service_detal from './Containers/Services/Service_detal'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,8 +22,10 @@ function App() {
 
         <Route path="/" element={<Main/>}/>
 
+
         <Route path='/' element={<Main/>}/>
         <Route path="/main" element={<Main/>}/>
+
 
         <Route path="/catalogs" element={<Catalogs/>}/>
         <Route path="/services" element={<Service/>}/>
@@ -30,6 +33,7 @@ function App() {
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/portfolio" element={<Portfolio/>}/>
         <Route path="/contacts" element={<Contacts/>}/>
+        <Route path="/service_detail" element={<Service_detal/>}/>
       </Routes>
       <Footer></Footer>
     </div>

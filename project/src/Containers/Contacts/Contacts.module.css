@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     
 }
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+ 
+
+
 
 
 .container {
@@ -46,7 +51,7 @@ color:  #828299;
 
 .con {
     height: 65px;
-width: 1070px;
+width: 110px;
 margin-top: 22px;
 font-family: Montserrat;
 font-size: 50px;
@@ -277,6 +282,7 @@ color: #192040;
         .zayavka {
         font-size: 24px;
         margin-top: -30px;
+        width: 300px;
         }
     }
      .blk4 {
@@ -286,6 +292,7 @@ color: #192040;
         .blk4 {
             margin-left: -100px;
             display: block;
+            width: 300px;
         }
     }
      .zav {
@@ -315,7 +322,7 @@ color: #828299;
      @media screen and (max-width:375px) {
         .input {
             display: block;
-           
+            width: 300px;
         }
     }
 
@@ -323,6 +330,11 @@ color: #828299;
         width: 150px;
 
      }
+     @media screen and (max-width:375px) {
+        .h3 {
+            width: 300px;
+        }
+    }
      
      .h {
         display: block;
@@ -407,7 +419,7 @@ transition: 0.3s;
      }
      @media screen and (max-width:375px) {
         .sullka {
-         
+            width: 300px;
            margin-left: 0;
            margin-top: 6px;
         }
@@ -419,9 +431,10 @@ transition: 0.3s;
      }
      .img3 {
         position: absolute;
+      
         border-radius: 0 40px ;
-       left: 1120px;
-        top: 1055px;
+        left: 1120px;
+        top: 1062px;
      }
      @media screen and (max-width:375px) {
         .img3 {
@@ -437,4 +450,18 @@ transition: 0.3s;
         .vec {
            display: none;
         }
+    }
+
+
+
+    .zakaz {
+        height: 675px;
+width: 1190px;
+border-radius: 30px;
+padding: 60px 80px 60px 80px;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+radial-gradient(68.66% 43.09% at 0% 100%, rgba(207, 213, 229, 0.15) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(99.36% 102.39% at 100% 76.24%, rgba(211, 229, 207, 0.08) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+linear-gradient(0deg, #FFFEFC, #FFFEFC);
+border: 2px solid #FFFFFF
     }

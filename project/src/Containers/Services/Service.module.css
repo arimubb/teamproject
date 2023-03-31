@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.container2 {
+    margin-left: 278.31px;
+    margin-top: 62px;
+}
+@media screen and (max-width:375px) {
+    .container2 {
+      margin-left: 18px;
+    }
+}
+.main2 {                                                                                                                                                                       
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+@media screen and (max-width:375px) {
+    .main2 {
+        margin-right: 18px;
+    }
+}
+.iimg {
+  width: 13px;
+  height: 12px;
+}
+/* @media screen and (max-width:375px) {
+    .iimg {
+        margin-right: 18px;
+    }
+} */
+.uslugi {
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color:  #828299;
+
+}
+
+
+/* .img1 {
+    height: 12px;
+    width: 13px;
+} */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+.slesh2 {
+color:  #828299;                          
+    
+}      
+                                                                                    
+.con2 {
+height: 65px;                                                                                                                                                                                                                                        
+width: 110px;
+margin-top: 22px;
+font-family: Montserrat;
+font-size: 50px;
+font-weight: 600;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: left;
+border-radius: nullpx;
+
+}
+@media screen and (max-width:375px) {
+    .con2 {
+        font-size: 30px;
+        margin-top: 13px;
+    }
+}
+
+
+.ispol {
+    height: 44px;
+    width: 830px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828299;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:375px) {
+    .ispol {
+        width: 334px;
+    }
+}
+.block10 {
+    display: flex;
+    margin-top: 120px;
+}
+@media screen and (max-width:375px) {
+    .block10 {
+        display: none;
+    }
+}
+
+
+.text {
+    position: relative;
+    margin-left: 130px;
+}
+@media screen and (max-width:375px) {
+    .text {
+ margin-left: 60px;
+ margin-top: 10px;
+    }
+}
+/* .text1 {
+    position: relative;
+    margin-left: 0px;
+}
+@media screen and (max-width:375px) {
+    .text1 {
+ margin-left: 60px;
+ margin-top: 10px;
+    }
+} */
+.golovka {
+    height: 156px;
+    width: 650px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;    
+font-family: MOntserrat;
+font-size: 40px;
+font-weight: 600;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+    
+}
+@media screen and (max-width:375px) {
+    .golovka {
+        height: 93px;
+width: 334px;
+border-radius: nullpx;
+font-size: 24px;
+font-weight: 600;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+    }
+}
+
+
+
+.lovka {
+    height: 154px;
+width: 590px;
+margin-top: 20px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #828299;
+}
+@media screen and (max-width:375px) {
+    .lovka {   height: 200px;
+width: 360px;
+left: 0px;
+top: 103px;
+border-radius: nullpx;
+
+    }
+}
+
+.lovka1 {
+    height: 154px;
+width: 590px;
+margin-top: 20px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #828299;
+}
+@media screen and (max-width:375px) {
+    .lovka1 {   height: 200px;
+width: 360px;
+margin-top: 50px;
+border-radius: nullpx;
+
+    }
+}
+
+.sullka2 {
+    position: absolute;
+    height: 22px;
+   width: 200px;
+   top: 350px;
+     border-radius: nullpx;    
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+text-decoration: none;
+letter-spacing: 0em;
+text-align: left;
+color: #FF2E51;
+
+}
+@media screen and (max-width:375px) {
+    .sullka2 {
+ height: 188.1690216064453px;
+width: 334px;
+margin-top:40px;
+border-radius: 30px;
+
+    }
+}
+.sullka3 {
+    position: absolute;
+    height: 22px;
+   width: 200px;
+   top: 350px;
+     border-radius: nullpx;    
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+text-decoration: none;
+letter-spacing: 0em;
+text-align: left;
+color: #FF2E51;
+
+}
+@media screen and (max-width:375px) {
+    .sullka3 {
+ height: 188.1690216064453px;
+width: 334px;
+margin-top:70px;
+border-radius: 30px;
+
+    }
+}
+.span1 {
+    margin-left: 11px;
+}
+
+.text1 {
+    position: relative;
+    margin-left: 0;
+   
+}
+@media screen and (max-width:375px) {
+    .text1 {
+ margin-left: 60px;
+ margin-top: 20px;
+    }
+}
+
+.immg {
+    margin-left: 60px;
+}
+
+@media screen and (max-width:375px) {
+    .immg {
+ height: 188.1690216064453px;
+width: 334px;
+left: 0px;
+top: 0px;
+border-radius: 30px;
+
+    }
+}
+
+.block11 {
+    display: none;
+}
+@media screen and (max-width:375px) {
+    .block11 {
+        display: block;
+        margin-left: -62px;
+        margin-top: 120px;
+    }
+}
+.block12 {
+    display: none;
+}
+@media screen and (max-width:375px) {
+    .block12 {
+        display: block;
+        margin-left: -62px;
+        margin-top: 130px;
+    }
+}
+.block13 {
+    display: none;
+}
+@media screen and (max-width:375px) {
+    .block13 {
+
+        display: block;
+        margin-left: -62px;
+        margin-top: 130px;
+    }
+}
+.block14 {
+    display: none;
+}
+@media screen and (max-width:375px) {
+    .block14 {
+        display: block;
+        margin-left: -62px;
+        margin-top: 130px;
+    }
+}
