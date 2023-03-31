@@ -37,7 +37,7 @@ function App() {
         <Route path="/service_detail" element={<Service_detal/>}/>
       </Routes>
       <Footer></Footer>
-      <NavMain></NavMain>
+      
     </div>
       
     
