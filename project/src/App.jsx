@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Footer from './Components/Footer/Footer'
 import Nav from './Components/Navigation/Nav'
+import NavMain from './Components/Navigation/NavMain'
 import About from './Containers/About/About'
 import Blog from './Containers/Blog/Blog'
 import Catalogs from './Containers/Catalogs/Catalogs'
@@ -36,6 +37,7 @@ function App() {
         <Route path="/service_detail" element={<Service_detal/>}/>
       </Routes>
       <Footer></Footer>
+      <NavMain></NavMain>
     </div>
       
     
