@@ -1,0 +1,876 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.config {
+    margin-left: 278.31px;
+    margin-top: 62px;
+}
+@media screen and (max-width:375px) {
+    .config {
+        margin-left: 18px;
+        margin-top: 40px;
+    }
+}
+
+
+.vazka {
+    position: relative;
+    margin-left: -20px;
+    height: 600px;
+    width: 1950px;
+    margin-top: 0px;
+    background-image: url('../../../public/img/image\ 35\ \(1\).png');
+}
+@media screen and (max-width:375px) {
+    .vazka {
+        display: none;
+    }
+}
+
+.rozovyi {
+    height: 600px;
+width: 1075px;
+border-radius: 0px;
+margin-left: 40px;
+
+    background-image: url('../../../public/img/Vector\ \(12\).png');
+}
+
+
+.nadpis {
+    position: absolute;
+    margin-left: 250px;
+   top: 120px;
+}
+
+.q1 {
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 900;
+line-height: 65px;
+width: 900px;
+letter-spacing: 0em;
+text-align: left;
+color: #192040;
+}
+
+
+.porag {
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+height: 66px;
+width: 710px;
+margin-top: 20px;
+top: 150px;
+border-radius: nullpx;
+color: #192040;
+}
+
+
+.btnf {
+    height: 62px;
+width: 259px;
+border: none;
+margin-top: 50px;
+border-radius: 50px;
+padding: 20px 60px 20px 60px;
+background-color: #FF2E51;
+color: white;
+font-size: 16px;
+transition: 0.7s;
+}
+
+.btnf:active {
+  transition: 0.7s;
+  background-color: rgb(53, 49, 49);
+}
+
+
+
+
+.main2 {                                                                                                                                                                       
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+@media screen and (max-width:375px) {
+    .main2 {
+        margin-right: 18px;
+    }
+}
+.iimg {
+  width: 13px;
+  height: 12px;
+}
+/* @media screen and (max-width:375px) {
+    .iimg {
+        margin-right: 18px;
+    }
+} */
+.uslugi {
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color:  #828299;
+
+}
+
+
+/* .img1 {
+    height: 12px;
+    width: 13px;
+} */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+.slesh2 {
+color:  #828299;                          
+    
+}      
+                                                                             
+.con2 {
+height: 65px;                                                                                                                                                                                                                                        
+width: 1070px;
+margin-top: 22px;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 600px;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: left;
+border-radius: nullpx;
+color: #192040;
+}
+@media screen and (max-width:375px) {
+    .con2 {
+        font-size: 30px;
+        width: 350px;
+        border-radius: nullpx;
+        line-height: 30px;
+    }
+}
+
+
+.ispol {
+    height: 44px;
+    width: 830px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828299;
+    margin-top: 70px;
+}
+
+@media screen and (max-width:375px) {
+    .ispol {
+        width: 334px;
+    }
+}
+.umg {
+    height: 550px;
+}
+@media screen and (max-width:980px) {
+    .umg {
+    height: 266.2591552734375px;
+width: 350.6816711425781px;
+
+    }
+}
+.disegn {
+    display: flex;
+    margin-top: 120px;
+}
+@media screen and (max-width:980px) {
+    .disegn {
+  display: block;
+    }
+}
+
+.besigns {
+    display: block;
+    margin-left: 80px;
+}
+
+@media screen and (max-width:980px) {
+    .besigns {
+  margin-left: 0;
+    }
+}
+
+.porag1 {
+    height: 104px;
+width: 590px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 600;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+color: #192040;
+}
+@media screen and (max-width:980px) {
+    .porag1 {
+  width: 350px;
+    }
+}
+.porag2 {
+    width: 590px;
+    border-radius: nullpx;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #192040;
+}
+@media screen and (max-width:980px) {
+    .porag2 {
+  width: 350px;
+    }
+}
+.porag3 {
+    height: 416px;
+    width: 590px;
+    left: 0px;
+    top: 124px;
+    border-radius: nullpx;
+    
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #192040;
+    }
+
+    @media screen and (max-width:980px) {
+        .porag3 {
+      width: 350px;
+        }
+    }
+
+
+    .cards {
+        display: flex;
+        margin-top: 120px;
+       margin-left: -210px;
+    }
+    @media screen and (max-width:375px) {
+        .cards {
+            display: block;
+            margin-left: -13px;
+            margin-top: 200px;
+        }
+    }
+.card1 {
+    border: 2px solid #FFFFFF;
+    background: radial-gradient(49.88% 49.88% at 22.29% 100%, rgba(207, 213, 229, 0.15) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(80.86% 83.87% at 0% 0%, rgba(255, 220, 141, 0.08) 0%, rgba(255, 220, 141, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+linear-gradient(0deg, #FFFEFC, #FFFEFC),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+height: 433px;
+width: 350px;
+border-radius: 30px;
+padding: 50px 40px 40px 40px;
+margin-left: 10px;
+}
+@media screen and (max-width:375px) {
+    .card1 {
+ height: 337px;
+width: 260px;
+margin-top: 10px;
+    }
+}
+    .avka {
+        border-radius: 50%;
+        height: 150px;
+width: 150px;
+
+
+    }
+
+    @media screen and (max-width:375px) {
+        .avka {
+         width: 128px;
+         height: 128px;
+         margin-left: -10px;
+        }
+     }
+
+
+    .nad {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #192040;
+        margin-top: 100px;
+        }
+@media screen and (max-width:375px) {
+    .nad {
+        margin-top: 20px;
+    }
+}
+        
+        .nadney {
+            height: 132px;
+            width: 290px;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #828299;
+margin-top: 10px;
+        }
+
+      
+
+        .ssvideo {
+            display: block;
+            margin-top: 120px;
+        }
+
+  @media screen and (max-width:375px) {
+   .ssvideo {
+        display: none;
+    }
+  }
+        .svideo {
+            display:flex;
+        
+        }
+
+        @media screen and (max-width:375px) {
+            .svideo {
+                 display: block;
+             }
+           }
+
+        .mu_raznue {
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 600;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+height: 104px;
+width: 590px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+color: #192040;
+        }
+
+        @media screen and (max-width:375px) {
+            .mu_raznue {
+                 font-size: 24px;
+                 width: 334px;
+                 height: 62px;
+             }
+           }
+.blk12 {
+    display: block;
+}
+           @media screen and (max-width:375px) {
+            .blk12 {
+                margin-left: 135px;
+             }
+           }
+
+        .bogatyi {
+     height: 220px;
+width: 590px;
+margin-top: 20px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #192040;
+        }
+
+        @media screen and (max-width:375px) {
+            .bogatyi {
+                 font-size: 14px;
+                 width: 334px;
+                 margin-top: 30px;
+             }
+           }
+           
+        .bogatyi2 {
+            height: 220px;
+       width: 590px;
+       margin-top: 20px;
+       border-radius: nullpx;
+       font-family: Montserrat;
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 22px;
+       letter-spacing: 0em;
+       text-align: left;
+       color: #192040;
+               }
+       
+               @media screen and (max-width:375px) {
+                   .bogatyi2 {
+                        font-size: 14px;
+                        width: 334px;
+                        margin-top: 100px;
+                    }
+                  }
+        .blk123 {
+            height: 400px;
+            width: 710px;
+            margin-left: 130px;
+            border-radius: 30px;
+
+            background-image: url('../../../public/img/image 29.png');
+        }
+@media screen and (max-width:375px) {
+    .blk123 {
+           height:270px;
+width: 334px;
+left: 0px;
+top: 0px;
+border-radius: 30px;
+
+    }
+}
+        .button_vd {
+                     height: 64px;
+width: 64px;
+border-radius: 50px;
+padding: 20px;
+margin-top: 168px;
+margin-left: 323px; 
+  background-color: #FF2E51;
+  border: none;
+        }
+@media screen and (max-width:375px) {
+    .button_vd {
+     margin-left: 135px;
+     margin-top: 115px;
+    }
+}
+
+        .blk1234 {
+            height: 400px;
+            width: 710px;
+            border-radius: 30px;
+        
+            background-image: url('../../../public/img/image 30.png');
+        }
+        @media screen and (max-width:375px) {
+            .blk1234 {
+                   height:270px;
+        width: 334px;
+       margin-left: 130px;
+       margin-top: 210px;
+        border-radius: 30px;
+        
+            }
+        }
+        .blk125 {
+            margin-left: 130px;
+        }
+
+
+        .svideo1 {
+            display:flex;
+        margin-top: 120px;
+        }
+
+        @media screen and (max-width:375px) {
+            .svideo1 {
+                 display: block;
+                 
+                
+             }
+           }
+         
+        .ssvideo1 {
+            display: none;
+
+            margin-top: 120px;
+        }
+
+  @media screen and (max-width:375px) {
+   .ssvideo1 {
+        display: block;
+        margin-left: -130px;
+        margin-top: 60px;
+    }
+  }
+
+  .rabotaet {
+    display: block;
+    margin-top: 120px;
+  }
+  @media screen and (max-width:375px) {
+    .rabotaet {
+       margin-top: 230px;
+    }
+  }
+
+
+  .kak_mu  {
+ height: 52px;
+width: 590px;
+border-radius: undefinedpx;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 600;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+color: #192040;
+  }
+  @media screen and (max-width:375px) {
+    .kak_mu {
+      font-size: 24px;
+      width: 334px;
+    }
+  }
+
+
+  .bazovyi {
+    height: 44px;
+width: 590px;
+left: 0px;
+top: 72px;
+border-radius: undefinedpx;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 20px;
+color: #192040;
+  }
+  @media screen and (max-width:375px) {
+    .bazovyi {
+      font-size: 14px;
+      width: 334px;
+    }
+  }
+
+  .cards2 {
+    display: flex;
+    width: auto;
+  }
+  @media screen and (max-width:375px) {
+    .cards2 {
+        display: block;
+    }
+  }
+
+  .cardd {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .cardd1 {
+    display: block;
+    margin-top: 50px;
+    margin-left: 30px; 
+  }
+  @media screen and (max-width:375px) {
+    .cardd1 {
+       margin-left: 0; 
+    }
+  }
+  .blocc {
+    height: 40px;
+width: 49px;
+text-align: center;
+left: 0px;
+top: 0px;
+border-radius: 30px;
+padding: 30px;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+radial-gradient(60.16% 60.16% at 0% 100%, rgba(207, 213, 229, 0.4) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(89.84% 89.84% at 113.28% 62.5%, rgba(211, 229, 207, 0.3) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(89.84% 89.84% at 0% 0%, rgba(255, 220, 141, 0.08) 0%, rgba(255, 220, 141, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+linear-gradient(0deg, #FFFEFC, #FFFEFC);
+border: 2px solid #FFFFFF;
+  }
+  @media screen and (max-width:375px) {
+    .blocc {
+       width: 15px;
+       height: 15px;
+       font-size: 18px;
+    }
+  }
+
+  .t01 {
+   
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 600px;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+ height: 31px;
+width: 24px;
+margin-top: 9px;
+margin-left: 9px;
+border-radius: nullpx;
+color: #192040;
+  }
+  @media screen and (max-width:375px) {
+    .t01 {
+        margin-top: -5px;
+        margin-left: -4px;
+       font-size: 20px;
+    }
+  }
+  .vuezd {
+    height: 23px;
+width: 350px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #192040;
+margin-top: 40px;
+  }
+  @media screen and (max-width:375px) {
+    .vuezd {
+font-size: 18px;
+width: 334px;
+    }
+  }
+  .razlich {
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+height: 132px;
+width: 334px;
+margin-top: 10px;
+left: 0px;
+top: 33px;
+border-radius: nullpx;
+color: #192040;
+  }
+   .razlich1 {
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+height: 132px;
+width: 334px;
+margin-top: 30px;
+left: 0px;  
+top: 33px;
+border-radius: nullpx;
+color: #192040;
+  }
+
+
+  .zakaz {
+    display: flex;
+    height: 675px;
+width: 1190px;
+margin-top: 120px;
+margin-left: 25px;
+border-radius: 30px;
+padding: 60px 80px 60px 80px;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+radial-gradient(68.66% 43.09% at 0% 100%, rgba(207, 213, 229, 0.15) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(99.36% 102.39% at 100% 76.24%, rgba(211, 229, 207, 0.08) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+linear-gradient(0deg, #FFFEFC, #FFFEFC);
+border: 2px solid #FFFFFF
+} 
+@media screen and (max-width:375px) {
+     .zakaz {
+        display: none;
+     }
+}
+  
+.nam {
+    height: 156px;
+    width: 700px;
+    border-radius: nullpx;    
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 600px;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+color: #192040;
+}
+
+
+.nash {
+    margin-top: 10px;
+    width: 590px;
+}
+
+
+.odeal {
+    display: block;
+}
+
+
+.grop {
+    margin-left: -80px;
+    border-radius: 0 0 30px 30px;
+}
+.odeal1 {
+    display: block;
+    margin-left: 160px;
+}
+.untes {
+    height: 22px;
+width: 250px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #192040;
+}
+
+.proverka {
+ height: 52px;
+width: 268px;
+margin-top: 10px;
+border-radius: 50px;
+font-size: 16px;
+padding: 15px 30px 15px 30px;
+background-color: #FFFEFC;
+/* background-color: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+radial-gradient(68.66% 43.09% at 0% 100%, rgba(207, 213, 229, 0.15) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+/* radial-gradient(99.36% 102.39% at 100% 76.24%, rgba(211, 229, 207, 0.08) 0%, rgba(211, 229, 207, 0) 100%) warning: gradient uses a rotation that is not supported by CSS and may not behave as expected; */ 
+border: 2px solid #EDEDF2;
+
+}
+
+.proverka:focus{
+    transition: 0.8s;
+    background-color: #FF2E51;
+    color: #FFFEFC;
+}
+
+
+.ne_nujno {
+    height: 52px;
+width: 294px;
+left: 0px;
+margin-top: 10px;
+top: 62px;
+font-size: 16px;
+border-radius: 50px;
+padding: 15px 30px 15px 30px;
+background-color: #FFFFFF;
+border: 2px solid #EDEDF2;
+}
+
+
+.ne_nujno:focus{
+    transition: 0.8s;
+    background-color: #FF2E51;
+    color: #FFFEFC;
+}
+
+
+.zag_bash {
+    height: 17px;
+width: 200px;
+margin-top: 50px;
+border-radius: nullpx;
+    font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: #828299;
+}
+
+
+.file {
+    height: 62px;
+width: 360px;
+margin-top: 10px;
+border-radius: 50px;
+padding: 20px 25px 20px 25px;
+background-color: #FFFFFF;
+border: 2px solid #EDEDF2
+}
+
+
+.rr {
+    display: flex;
+}
+
+.lion {
+    margin-left: 11.27px;
+    font-size: 16px;
+}
+
+
+.fil1e {
+    height: 17px;
+    width: 310px;
+  margin-top: 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 20px 25px 20px 25px;
+    border: 2px solid #EDEDF2;
+    background-color: #FFFFFF;
+}
+
+
+.ftn {
+    height: 62px;
+width: 360px;
+margin-top: 30px;
+font-size: 16px;
+border-radius: 50px;
+padding: 20px 60px 20px 60px;
+background-color: #FFFFFF;
+transition: 0.8s;
+border: 2px solid #EDEDF2
+
+}
+.ftn:active {
+    background-color: #FF2E51;
+    transition: 0.8s;
+    color: #FFFFFF;
+}
