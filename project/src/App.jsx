@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Footer from './Components/Footer/Footer'
 import Nav from './Components/Navigation/Nav'
 import About from './Containers/About/About'
 import Blog from './Containers/Blog/Blog'
@@ -30,6 +31,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio/>}/>
         <Route path="/contacts" element={<Contacts/>}/>
       </Routes>
+      <Footer></Footer>
     </div>
       
     

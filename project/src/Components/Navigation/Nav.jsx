@@ -70,11 +70,11 @@ const Nav = ({}) => {
               </h2>
             </div>
 
-            <div className={styles.instLogo}>
-              <a href="https://www.instagram.com/stenoprint/">
-                <img src={Instagram} alt="" />
-              </a>
-            </div>
+              <div className={styles.instLogo}>
+                <a href="https://www.instagram.com/stenoprint/">
+                  <img src={Instagram} alt="" />
+                </a>
+              </div>
 
             <div className={styles.vkLogo}>
               <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F736620082794067013%2F&psig=AOvVaw2fGkCZrdE5agzIe6QYVLkj&ust=1678702618974000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOixuumU1v0CFQAAAAAdAAAAABAE">
