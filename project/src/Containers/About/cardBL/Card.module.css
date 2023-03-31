@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    border: 2px solid #ffff;
+    border-radius: 30px;
+    border-color: #ffff;
+    font-family: Montserrat;
+    height: 433px;
+    width: 350px;
+    border-radius: 30px;
+    background: radial-gradient(
+    80.86% 83.87% at 0% 0%,
+    rgb(228, 222, 208) 0%,
+    rgb(255, 255, 255) 100%
+  );
+    /* padding: 50px 40px 40px 40px; */
+}
+.imageCD{
+    margin: 50px 40px;
+}
+.titleCD{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.textCD{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #828299;
+    margin-left: 40px;
+    margin-top: 10px;
+}

@@ -1,0 +1,19 @@
+.btn{
+    cursor: pointer;
+    font-weight: bolder;
+  
+    margin: 0px;
+    font-family:Montserrat ;
+    outline: none;
+    text-decoration: none;
+    border-color: #7c7c7e00;
+    background-color: #7c7c7e00;
+    border-radius: 20px;
+    padding: 16px 21px;
+    font-size: 14px;
+    transition: .3s;
+  }
+  .btn:focus{
+    background-color: #FF2E51;
+    color: white;
+  }

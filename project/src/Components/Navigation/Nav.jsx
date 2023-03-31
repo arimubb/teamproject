@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from 'react'
 import styles from './Nav.module.css'
 import logo from '../resurs/image/logo.png'
 import Vector from '../resurs/Icons/Vector.png'
@@ -70,11 +70,11 @@ const Nav = ({}) => {
               </h2>
             </div>
 
-            <div className={styles.instLogo}>
-              <a href="https://www.instagram.com/stenoprint/">
-                <img src={Instagram} alt="" />
-              </a>
-            </div>
+              <div className={styles.instLogo}>
+                <a href="https://www.instagram.com/stenoprint/">
+                  <img src={Instagram} alt="" />
+                </a>
+              </div>
 
             <div className={styles.vkLogo}>
               <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F736620082794067013%2F&psig=AOvVaw2fGkCZrdE5agzIe6QYVLkj&ust=1678702618974000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOixuumU1v0CFQAAAAAdAAAAABAE">
@@ -94,6 +94,7 @@ const Nav = ({}) => {
             </div>
 
             <div className={styles.hamburgermenu}>
+
      
        <input id={styles.menu__toggle} type="checkbox" />
        
@@ -115,6 +116,47 @@ const Nav = ({}) => {
   </div>
 
 
+              <input
+                id={styles.menu__toggle}
+                type="checkbox"
+              />
+
+
+              <label
+                className={styles.menu__btn}
+                for={styles.menu__toggle}
+              >
+                <span></span>
+              </label>
+
+              <ul className={styles.menu__box}>
+                <li>
+                  <a className={styles.menu__item} href="#">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a className={styles.menu__item} href="#">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a className={styles.menu__item} href="#">
+                    Team
+                  </a>
+                </li>
+                <li>
+                  <a className={styles.menu__item} href="#">
+                    Contact
+                  </a>
+                </li>
+                <li>
+                  <a className={styles.menu__item} href="#">
+                    Twitter
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className={styles.assetsSecondBlock}>

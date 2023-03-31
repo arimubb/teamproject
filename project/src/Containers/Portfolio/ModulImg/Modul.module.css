@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+.container2{
+    display: none;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+    .oboi{
+        width: 334px;
+    }
+    .container{
+        display: none;
+    }
+    .container2{
+        display: block;
+    }
+}
