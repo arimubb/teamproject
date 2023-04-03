@@ -19,7 +19,7 @@
     height: 600px;
     width: 1950px;
     margin-top: 0px;
-    background-image: url('../../../public/img/image\ 35\ \(1\).png');
+    background-image: url('../../../public/img/image35(1).png');
 }
 @media screen and (max-width:375px) {
     .vazka {
@@ -33,7 +33,7 @@ width: 1075px;
 border-radius: 0px;
 margin-left: 40px;
 
-    background-image: url('../../../public/img/Vector\ \(12\).png');
+    background-image: url('../../../public/img/Vector(12).png');
 }
 
 
@@ -444,7 +444,7 @@ color: #192040;
             margin-left: 130px;
             border-radius: 30px;
 
-            background-image: url('../../../public/img/image 29.png');
+            background-image: url('../../../public/img/image29.png');
         }
 @media screen and (max-width:375px) {
     .blk123 {
@@ -456,7 +456,7 @@ border-radius: 30px;
 
     }
 }
-        .button_vd {
+        .btn_vd {
                      height: 64px;
 width: 64px;
 border-radius: 50px;
@@ -467,7 +467,7 @@ margin-left: 323px;
   border: none;
         }
 @media screen and (max-width:375px) {
-    .button_vd {
+    .btn_vd {
      margin-left: 135px;
      margin-top: 115px;
     }
@@ -478,7 +478,7 @@ margin-left: 323px;
             width: 710px;
             border-radius: 30px;
         
-            background-image: url('../../../public/img/image 30.png');
+            background-image: url('../../../public/img/image30.png');
         }
         @media screen and (max-width:375px) {
             .blk1234 {
@@ -874,3 +874,5 @@ border: 2px solid #EDEDF2
     transition: 0.8s;
     color: #FFFFFF;
 }
+
+
