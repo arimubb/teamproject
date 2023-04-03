@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
-.modal{
+.modal2{
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.597);
@@ -14,10 +14,10 @@
   justify-content: center;
   
 }
-.modal.active{
+.modal2.active{
   transform: scale(1);
 }
-.modal__content{
+.modal2__content{
   padding: 30px;
   border-radius: 30px; 
   width: 1430px;
@@ -27,7 +27,7 @@
  transition: 0.4s all;
  
 }
-.modal__content.active{ 
+.modal2__content.active{ 
   transform: scale(1 );
 
 }
