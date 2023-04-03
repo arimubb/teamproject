@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import AlimCards from '../../Components/UI/Cards/AlimCards'
 import Carouselbox from '../../Components/UI/CarouselBox/Carouselbox'
 import styles from './Main.module.css'
@@ -21,16 +21,22 @@ import ForthCards from '../../Components/UI/ForthCardsModal/ForthCards'
 import foto13 from '../../Components/UI/ForthCardsModal/images/imag1.png'
 import foto14 from '../../Components/UI/ForthCardsModal/images/imag2.png'
 import Application from '../../Components/UI/Application/Application'
+import Imagecarousel from '../../Components/Slider/Imagecarousel'
+import Modal from './Modal/Modal'
 
 
 
 
 function Main  ()  {
+
+  const [modalActive, setModalActive] = useState(false)
+  const [modalActiveS, setModalActiveS] = useState(false)
+
   return (
     <div className={styles.container}>
       {/* <Carouselbox></Carouselbox> */}
       {/* здесь должен быть слайдер */}
-
+<Imagecarousel></Imagecarousel>
 
       {/* блок№1 Дизайнерские обои  */}
       <div className={styles.designContainer}>
@@ -198,18 +204,39 @@ function Main  ()  {
 
     {/* блок№9 карточки с модальным окном */}
     <div className={styles.forthCards}>
-      <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
+       <button className={styles.btn4Card} onClick={() => setModalActive(true)}>
+        <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
         <img className={styles.foto13} src={foto13} alt=""/> 
         </ForthCards>
+       </button>
+      
+      <button className={styles.btn4Card} onClick={()=> setModalActiveS(true)}>
         <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
         <img className={styles.foto13}  src={foto14} alt=""/> 
         </ForthCards>
-        <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
+      </button>
+        
+        
+        <button className={styles.btn4Card} onClick={() => setModalActive(true)}>
+          <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
         <img className={styles.foto13}  src={foto13} alt=""/> 
         </ForthCards>
-        <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
+        </button>
+        
+        <button className={styles.btn4Card} onClick={() => setModalActiveS(true)}>
+          <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
         <img className={styles.foto13}  src={foto14} alt=""/> 
         </ForthCards>
+        </button>
+        
+
+        <Modal active={modalActive} setActive={setModalActive} > 
+        {foto13}
+        </Modal>
+       
+        <Modal active={modalActiveS} setActive={setModalActiveS} > 
+        {foto14}
+        </Modal>
     </div>
 
 

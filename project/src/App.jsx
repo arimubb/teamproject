@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Footer from './Components/Footer/Footer'
 import Nav from './Components/Navigation/Nav'
-import NavMain from './Components/Navigation/NavMain'
 import About from './Containers/About/About'
 import Blog from './Containers/Blog/Blog'
 import Catalogs from './Containers/Catalogs/Catalogs'
@@ -20,14 +19,9 @@ function App() {
     <div className="container">
       <Nav></Nav>
       <Routes>
-
         <Route path="/" element={<Main/>}/>
-
-
         <Route path='/' element={<Main/>}/>
         <Route path="/main" element={<Main/>}/>
-
-
         <Route path="/catalogs" element={<Catalogs/>}/>
         <Route path="/services" element={<Service/>}/>
         <Route path="/about" element={<About/>}/>

@@ -1,0 +1,50 @@
+.mycard{
+   min-width: 1430px;
+    height: 600px;
+    background: url(./Images/image1.png);
+    margin: 10px;
+    color: white;
+    margin:40px 210px;
+    transition: 2s;
+    border-radius: 30px;
+}
+
+.Mycard1Text{
+    font-size: 50px;
+    font-weight: 600;
+font-size: 50px;
+line-height: 130%;
+width: 850px;
+color: white;
+margin-top: 140px;
+margin-left: 120px;
+}
+.Mycard2Text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: white;
+width: 610px;
+margin-top: 20px;
+margin-left: 120px;
+}
+.Mycard3btn{
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 50px;
+    color: white;
+    padding: 20px 60px;
+    font-weight: 600;
+font-size: 16px;
+cursor: pointer;
+line-height: 140%;
+background-color: #FF2E51;;
+}
+
+@media screen and (max-width:376px) {
+    .mycard{
+        min-width: 355px;
+        margin-left: 1px;
+        padding: 0;
+    }
+}

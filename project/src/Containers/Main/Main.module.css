@@ -170,6 +170,13 @@
   width: 500px;
   margin-top: 20px;
 }
+.btn4Card{
+  text-decoration: none;
+  outline: none;
+  background-color: #19204000;
+    width: 30px;
+
+}
 @media screen and (max-width: 376px) {
   .showProducts {
     margin-left: 80px;

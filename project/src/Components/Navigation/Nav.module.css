@@ -355,10 +355,10 @@
   }
   #menu__toggle:checked ~ .menu__box {
     left: 0 !important;
-    visibility: visible;
+    visibility: visible;  
   }
   .burgerBnt{
-    border: 1px solid red;
+    border: 1px solid #ededf2;;
   }
   .menu__btn {
     /* position: fixed; */
@@ -368,7 +368,7 @@
     left: 260px;
     padding: 10px;
     border-radius: 50px;
-    border: 1px solid rgba(133, 130, 130, 0.448);
+    border: 1px solid #ededf2;;
     width: 32px;
     height: 32px;
     cursor: pointer;
@@ -377,12 +377,12 @@
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
-    display: block;
+    display: block;  
     position: absolute;
     width: 32px;
     height: 2px;
     top: 25px;
-    background-color: #616161;
+    background-color: #494949;
     transition-duration: .25s;
   }
   .menu__btn > span::before {

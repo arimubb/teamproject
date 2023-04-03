@@ -107,7 +107,7 @@ const Nav = ({}) => {
     
 
     <ul className={styles.menu__box}>
-      <li><a className={styles.menu__item} href="#">Home</a></li>
+      <li><a className={styles.menu__item} href="/services">Главная</a></li>
       <li><a className={styles.menu__item} href="#">About</a></li>
       <li><a className={styles.menu__item} href="#">Team</a></li>
       <li><a className={styles.menu__item} href="#">Contact</a></li>
@@ -131,28 +131,28 @@ const Nav = ({}) => {
 
               <ul className={styles.menu__box}>
                 <li>
-                  <a className={styles.menu__item} href="#">
-                    Home
+                  <a className={styles.menu__item} href="/main">
+                    Главная
                   </a>
                 </li>
                 <li>
-                  <a className={styles.menu__item} href="#">
-                    About
+                  <a className={styles.menu__item} href="/services">
+                    Наши услуги 
                   </a>
                 </li>
                 <li>
-                  <a className={styles.menu__item} href="#">
-                    Team
+                  <a className={styles.menu__item} href="/about">
+                    О студии 
                   </a>
                 </li>
                 <li>
-                  <a className={styles.menu__item} href="#">
-                    Contact
+                  <a className={styles.menu__item} href="/portfolio">
+                    Портфолио
                   </a>
                 </li>
                 <li>
-                  <a className={styles.menu__item} href="#">
-                    Twitter
+                  <a className={styles.menu__item} href="/contacts">
+                    Контакты
                   </a>
                 </li>
               </ul>
