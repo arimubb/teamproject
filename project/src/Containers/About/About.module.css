@@ -2,9 +2,8 @@
 
 .aboutGlavCon {
   margin: 0 auto;
-  width: 1500px;
+  width: 1370px;
   height: 100%;
-  background-color: #ededf2;
 }
 .aboutTitle {
   display: flex;
@@ -19,7 +18,7 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0rem;
   text-align: left;
   color: #828299;
   text-decoration: none;
@@ -61,6 +60,14 @@ font-size: 50px;
   font-size: 40px;
   font-family: Montserrat;
 }
+.descText1 {
+  font-family: Montserrat;
+  line-height: 25px;
+  margin-bottom: 80px;
+  width: 590px;
+  height: 52px;
+  font-size: 16px;
+}
 .descText {
   font-family: Montserrat;
   line-height: 25px;
@@ -74,6 +81,7 @@ font-size: 50px;
   display: flex;
   justify-content: space-between;
   margin-top: 155px;
+  gap: 20px;
 }
 .aboutRewiew {
   display: flex;
@@ -81,6 +89,7 @@ font-size: 50px;
   margin-top: 120px;
 }
 .rewTitle {
+  color: #192040;
   width: 590px;
   font-family:Montserrat  ;
    font-style: normal;
@@ -88,6 +97,33 @@ font-size: 50px;
   font-size: 40px;
 }
 .rewText {
+  color: #192040;
+  width: 590px;
+  font-family:Montserrat ;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+
+}
+#aboutRewiew1{
+  display: none;
+}
+.aboutRewiew1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.rewTitle1 {
+  color: #192040;
+  width: 590px;
+  font-family:Montserrat  ;
+   font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+}
+.rewText1 {
+  color: #192040;
   width: 590px;
   font-family:Montserrat ;
   font-style: normal;
@@ -102,6 +138,7 @@ font-size: 50px;
     margin-top: 120px;
   }
   .rewTitle2 {
+    color: #192040;
     width: 590px;
     font-family:Montserrat  ;
      font-style: normal;
@@ -109,6 +146,7 @@ font-size: 50px;
     font-size: 40px;
   }
   .rewText2 {
+    color: #192040;
     width: 590px;
     font-family:Montserrat ;
     font-style: normal;
@@ -123,6 +161,11 @@ font-size: 50px;
     display: flex;
     gap: 10px;
     margin-top: 50px;
+    width: 1440px;
+    overflow-x: auto;
+  }
+  .OurScrollimg::-webkit-scrollbar{
+    width: 1px;
   }
   .OurTitle{
     font-family:Montserrat;
@@ -138,8 +181,259 @@ font-size: 50px;
     font-size: 16px;
     width: 590px;
   }
+/* заявка */
+.block2 {
+  display: flex;
+  height: 400px;
+  width: 1190px;
+  margin-top: 121px;
+  border-radius: 40px;
+  padding: 60px 120px 60px 120px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+  radial-gradient(35.81% 100% at 0% 100%, rgba(207, 213, 229, 0.3) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+  radial-gradient(25.54% 71.56% at 71.36% 78.16%, rgba(211, 229, 207, 0.3) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+  radial-gradient(60.59% 64.89% at 0% 0%, rgba(255, 181, 61, 0.1) 0%, rgba(255, 181, 61, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+  linear-gradient(0deg, #FFFEFC, #FFFEFC);
   
-  /* Адаптив */
-  /* @media screen and(max-width:375) {
-    
-  } */
+  
+}
+.zayavka {
+  height: 52px;
+  width: 400px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 600;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+color: #192040;
+}
+.blk4 {
+  color: #FFFFFF;
+}
+.zav {
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+height: 44px;
+width: 513px;
+margin-top: 20px;
+border-radius: nullpx;
+color: #828299;
+}
+.input {
+  display: flex;
+  margin-top: 50px;
+ 
+}
+.h3 {
+  width: 150px;
+
+}
+
+.h {
+  display: block;
+}
+.m {
+  display: block;
+  margin-left: 10px;
+}
+.inp1 {
+  margin-top: 10px;
+  height: 30px;
+  width: 350px;
+  left: 0px;
+  top: 27px;
+  border-radius: 10px;
+  padding: 20px 25px 20px 25px;
+  border: 2px solid #EDEDF2;
+  color: #828299;
+  font-size: 16px;
+}
+.btn {
+  height: 62px;
+width: 236px;
+left: 0px;
+top: 0px;
+border-radius: 50px;
+padding: 20px 50px 20px 50px;
+background-color: #FF2E51;
+color: #FFFFFF;
+margin-top: 40px;
+border: none;
+transition: 0.3s;
+
+}
+.btn:active {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  transition: 0.3s;
+  
+}
+.cov {
+display: flex;
+}
+.sullka {
+  height: 40px;
+  width: 500px;
+  margin-top: 40px;
+  margin-left: 35px;
+  border-radius: nullpx;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828299;
+
+}
+a {
+  color: #828299;
+}
+.img3 {
+  position: absolute;
+  border-radius: 0 40px ;
+  left: 1120px;
+  top: 1062px;
+}
+.vec {
+  margin-top: 135px;
+  margin-left: 34px;
+  border-radius: 0 0 40px 0;
+}
+/* заявка конец */
+/* Адаптив */
+@media screen and (max-width: 375px) {
+  /* адаптив заявки */
+  .block2 {
+    margin-left: -5px;
+    width: 100px;
+    height: 489px;
+   }
+    .zayavka {font-size: 24px; margin-top: -30px;}
+    .blk4 {margin-left: -100px; display: block;}
+    .zav {font-size: 14px; width:300px;}
+    .input {display: block;}
+    .m {margin-left: 0px;}
+    .inp1 {width: 250px;}
+    .cov {display: block;}
+    .sullka {margin-left: 0;margin-top: 6px;}
+    .img3 {display: none;}
+    .vec {display: none;}
+    /* адаптив заявки */
+  .aboutGlavCon{
+    width: 334px;
+  }
+  .aboutH2{
+    width: 334px;
+    height: 39px;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+  }  
+  .aboutInfoTitle{
+    width: 334px;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    height: 100px;
+  }
+  .aboutDescription{
+    display: block;
+  }
+  .descImg{
+    width: 334px;
+    height:266.26px;
+  }
+  .descTitle{
+    margin-top: 30px;
+    width: 334px;
+    height: 31px;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+  } 
+  .descText1{
+    width: 334px;
+    height: 85px;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .descText{
+    width: 334px;
+    height: 510px;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .aboutCard{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .imageCD{
+    Width:96px;
+    Height:96px;
+  }
+  .titleCD{
+    height: 42px;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    width: 274px;
+  }
+  .textCD{
+    height: 200px;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 274px;
+  }
+  #aboutRewiew{
+    display:none;
+  }
+  #aboutRewiew1{
+    display: block;
+  }
+  .aboutRewiew1{
+    Width:334px;
+    Height:188px;
+  }
+  .imgRewVideo1{
+    Width:334px;
+    Height:188px;
+  }
+  .rewTitle1{
+    margin-top: 10px;
+    width: 334px;
+    height: 62px;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .rewText1{
+    height: 300px;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 334px;
+  }
+  
+  }
