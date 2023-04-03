@@ -864,14 +864,15 @@ margin-top: 30px;
 font-size: 16px;
 border-radius: 50px;
 padding: 20px 60px 20px 60px;
-background-color: #FFFFFF;
+background-color: #FF2E51;
 transition: 0.8s;
+color: white;
 border: 2px solid #EDEDF2
 
 }
 .ftn:active {
-    background-color: #FF2E51;
-    transition: 0.8s;
+    background-color: #ff1d43;
+    transition: 0.2s;
     color: #FFFFFF;
 }
 
