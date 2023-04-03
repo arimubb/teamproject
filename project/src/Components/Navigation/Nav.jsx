@@ -91,7 +91,7 @@ const Nav = ({}) => {
 
             <div className={styles.vectorLogo}>
               <img src={Vector} alt="" />
-            </div>
+            </div>  
 
             <div className={styles.hamburgermenu}>
 
@@ -113,7 +113,7 @@ const Nav = ({}) => {
       <li><a className={styles.menu__item} href="#">Contact</a></li>
       <li><a className={styles.menu__item} href="#">Twitter</a></li>
     </ul>
-  </div>
+
 
 
               <input
@@ -156,8 +156,8 @@ const Nav = ({}) => {
                   </a>
                 </li>
               </ul>
-            </div>
-          </div>
+            </div>  </div>
+          
 
           <div className={styles.assetsSecondBlock}>
             <Customlink to="/">
@@ -202,7 +202,7 @@ const Nav = ({}) => {
               </button>
             </Customlink>
           </div>
-        </div>
+        </div></div>
       </div>
   
   )
