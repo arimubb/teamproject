@@ -16,6 +16,7 @@
     rgb(228, 222, 208) 0%,
     rgb(255, 255, 255) 100%
   );
+
     /* padding: 50px 40px 40px 40px; */
 }
 .imageCD{
@@ -34,4 +35,27 @@
     color: #828299;
     margin-left: 40px;
     margin-top: 10px;
+}
+@media screen and (max-width: 375px){
+    .card{
+        width: 334px;
+        height: 465px;
+    }
+    .imageCD{
+    Width:100px;
+    Height:100px;
+    border-radius: 50px;
+    }
+    .titleCD{
+        width: 340px;
+        height: 45px;
+    }
+    .textCD{
+        width: 274px;
+        height: 120px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Gilroy';
+    }
 }

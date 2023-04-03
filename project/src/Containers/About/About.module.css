@@ -89,6 +89,7 @@ font-size: 50px;
   margin-top: 120px;
 }
 .rewTitle {
+  color: #192040;
   width: 590px;
   font-family:Montserrat  ;
    font-style: normal;
@@ -96,6 +97,33 @@ font-size: 50px;
   font-size: 40px;
 }
 .rewText {
+  color: #192040;
+  width: 590px;
+  font-family:Montserrat ;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+
+}
+#aboutRewiew1{
+  display: none;
+}
+.aboutRewiew1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.rewTitle1 {
+  color: #192040;
+  width: 590px;
+  font-family:Montserrat  ;
+   font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+}
+.rewText1 {
+  color: #192040;
   width: 590px;
   font-family:Montserrat ;
   font-style: normal;
@@ -110,6 +138,7 @@ font-size: 50px;
     margin-top: 120px;
   }
   .rewTitle2 {
+    color: #192040;
     width: 590px;
     font-family:Montserrat  ;
      font-style: normal;
@@ -117,6 +146,7 @@ font-size: 50px;
     font-size: 40px;
   }
   .rewText2 {
+    color: #192040;
     width: 590px;
     font-family:Montserrat ;
     font-style: normal;
@@ -151,51 +181,28 @@ font-size: 50px;
     font-size: 16px;
     width: 590px;
   }
-
-
-  .RewBtn {
-    height: 64px;
-    width: 64px;
-    margin-left: 323px;
-    margin-top: 168px;
-    border-radius: 50px;    
-    background-color: #FF2E51;
-    border: none;
-    text-align: center;
-    thransition: 0.6s;
-  }
-  .RewBtn:active{
-  background-color: black;
-  transition: 0.6s;
-  }
-  .aboutRewImgCon {
-    height: 400px;
-    width: 710px;
-    border-radius: 30px;
-    background-image: url('../../../public/imgBelya/image 29.png');
-  }
-  /* заявка */
-  .block2 {
-    display: flex;
-    height: 400px;
-    width: 1190px;
-    margin-top: 121px;
-    border-radius: 40px;
-    padding: 60px 120px 60px 120px;
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
-    radial-gradient(35.81% 100% at 0% 100%, rgba(207, 213, 229, 0.3) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-    radial-gradient(25.54% 71.56% at 71.36% 78.16%, rgba(211, 229, 207, 0.3) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-    radial-gradient(60.59% 64.89% at 0% 0%, rgba(255, 181, 61, 0.1) 0%, rgba(255, 181, 61, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-    linear-gradient(0deg, #FFFEFC, #FFFEFC);
-    
-    
- }
- .zayavka {
-    height: 52px;
-    width: 400px;
-    left: 0px;
-    top: 0px;
-    border-radius: nullpx;
+/* заявка */
+.block2 {
+  display: flex;
+  height: 400px;
+  width: 1190px;
+  margin-top: 121px;
+  border-radius: 40px;
+  padding: 60px 120px 60px 120px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+  radial-gradient(35.81% 100% at 0% 100%, rgba(207, 213, 229, 0.3) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+  radial-gradient(25.54% 71.56% at 71.36% 78.16%, rgba(211, 229, 207, 0.3) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+  radial-gradient(60.59% 64.89% at 0% 0%, rgba(255, 181, 61, 0.1) 0%, rgba(255, 181, 61, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+  linear-gradient(0deg, #FFFEFC, #FFFEFC);
+  
+  
+}
+.zayavka {
+  height: 52px;
+  width: 400px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
 font-family: Montserrat;
 font-size: 40px;
 font-weight: 600;
@@ -203,23 +210,11 @@ line-height: 52px;
 letter-spacing: 0em;
 text-align: left;
 color: #192040;
- }
- @media screen and (max-width:375px) {
-    .zayavka {
-    font-size: 24px;
-    margin-top: -30px;
-    }
 }
- .blk4 {
-    color: #FFFFFF;
- }
- @media screen and (max-width:375px) {
-    .blk4 {
-        margin-left: -100px;
-        display: block;
-    }
+.blk4 {
+  color: #FFFFFF;
 }
- .zav {
+.zav {
 font-family: Montserrat;
 font-size: 16px;
 font-weight: 400;
@@ -231,66 +226,38 @@ width: 513px;
 margin-top: 20px;
 border-radius: nullpx;
 color: #828299;
- }
- @media screen and (max-width:375px) {
-    .zav {
-       font-size: 14px;
-       width:300px;
-    }
 }
- .input {
-    display: flex;
-    margin-top: 50px;
-   
- }
- @media screen and (max-width:375px) {
-    .input {
-        display: block;
-       
-    }
-}
-
- .h3 {
-    width: 150px;
-
- }
+.input {
+  display: flex;
+  margin-top: 50px;
  
- .h {
-    display: block;
- }
- .m {
-    display: block;
-    margin-left: 10px;
- }
+}
+.h3 {
+  width: 150px;
 
- @media screen and (max-width:375px) {
-    .m {
-       margin-left: 0px;
-    }
 }
 
- .inp1 {
-    margin-top: 10px;
-    height: 30px;
-    width: 350px;
-    left: 0px;
-    top: 27px;
-    border-radius: 10px;
-    padding: 20px 25px 20px 25px;
-    border: 2px solid #EDEDF2;
-    color: #828299;
-    font-size: 16px;
- }
- @media screen and (max-width:375px) {
-    .inp1 {
-     
-        width: 250px;
-       
-    }
+.h {
+  display: block;
 }
-
- .btn {
-    height: 62px;
+.m {
+  display: block;
+  margin-left: 10px;
+}
+.inp1 {
+  margin-top: 10px;
+  height: 30px;
+  width: 350px;
+  left: 0px;
+  top: 27px;
+  border-radius: 10px;
+  padding: 20px 25px 20px 25px;
+  border: 2px solid #EDEDF2;
+  color: #828299;
+  font-size: 16px;
+}
+.btn {
+  height: 62px;
 width: 236px;
 left: 0px;
 top: 0px;
@@ -302,77 +269,65 @@ margin-top: 40px;
 border: none;
 transition: 0.3s;
 
- }
- .btn:active {
-    color: rgb(255, 255, 255);
-    background-color: #000000;
-    transition: 0.3s;
-    
- }
+}
+.btn:active {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  transition: 0.3s;
+  
+}
 .cov {
 display: flex;
 }
-@media screen and (max-width:375px) {
-.cov {
- 
-    display: block;
-   
-}
+.sullka {
+  height: 40px;
+  width: 500px;
+  margin-top: 40px;
+  margin-left: 35px;
+  border-radius: nullpx;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828299;
 
 }
-
- .sullka {
-    height: 40px;
-    width: 500px;
-    margin-top: 40px;
-    margin-left: 35px;
-    border-radius: nullpx;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #828299;
-
- }
- @media screen and (max-width:375px) {
-    .sullka {
-     
-       margin-left: 0;
-       margin-top: 6px;
-    }
+a {
+  color: #828299;
 }
 .img3 {
   position: absolute;
   border-radius: 0 40px ;
-  left: 1104px;
-  top: 3564px;
-}
-@media screen and (max-width:375px) {
-  .img3 {
-     display: none;
-  }
+  left: 1120px;
+  top: 1062px;
 }
 .vec {
   margin-top: 135px;
   margin-left: 34px;
   border-radius: 0 0 40px 0;
 }
-@media screen and (max-width:375px) {
-  .vec {
-     display: none;
-  }
-}
-
- a {
-    color: #828299;
- }
-
-  /* заявка конец */
-
-  /* Адаптив */
-  @media screen and (max-width: 375px) {
+/* заявка конец */
+/* Адаптив */
+@media screen and (max-width: 375px) {
+  /* адаптив заявки */
+  .block2 {
+    margin-left: -5px;
+    width: 100px;
+    height: 489px;
+   }
+    .zayavka {font-size: 24px; margin-top: -30px;}
+    .blk4 {margin-left: -100px; display: block;}
+    .zav {font-size: 14px; width:300px;}
+    .input {display: block;}
+    .m {margin-left: 0px;}
+    .inp1 {width: 250px;}
+    .cov {display: block;}
+    .sullka {margin-left: 0;margin-top: 6px;}
+    .img3 {display: none;}
+    .vec {display: none;}
+    /* адаптив заявки */
   .aboutGlavCon{
     width: 334px;
   }
@@ -400,13 +355,14 @@ display: flex;
     height:266.26px;
   }
   .descTitle{
+    margin-top: 30px;
     width: 334px;
     height: 31px;
     font-family:Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-  }
+  } 
   .descText1{
     width: 334px;
     height: 85px;
@@ -428,10 +384,6 @@ display: flex;
     flex-direction: column;
     gap: 10px;
   }
-  .serviceCD1{
-    width: 334px;
-    height: 465px;
-  }
   .imageCD{
     Width:96px;
     Height:96px;
@@ -452,4 +404,36 @@ display: flex;
     font-size: 14px;
     width: 274px;
   }
+  #aboutRewiew{
+    display:none;
+  }
+  #aboutRewiew1{
+    display: block;
+  }
+  .aboutRewiew1{
+    Width:334px;
+    Height:188px;
+  }
+  .imgRewVideo1{
+    Width:334px;
+    Height:188px;
+  }
+  .rewTitle1{
+    margin-top: 10px;
+    width: 334px;
+    height: 62px;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .rewText1{
+    height: 300px;
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 334px;
+  }
+  
   }
