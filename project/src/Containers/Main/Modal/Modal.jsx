@@ -4,8 +4,8 @@ import Link from '../../../Components/UI/Link/Link'
 
 const Modal = ({active, setActive , children }) => {
   return (
-<div className={active ? "modal2 active" : "modal2"} onClick={() => setActive(false) }>
-   <div className={active ? "modal2__content active" : "modal2"} onClick={e => e.stopPropagation()}>
+<div className={active ? "modalAlim active" : "modalAlim"} onClick={() => setActive(false) }>
+   <div className={active ? "modalAlim__content active" : "modalAlim"} onClick={e => e.stopPropagation()}>
        <div className="firstBlockPopup">  
          <img className='popupImage' src={children} alt="" />
        </div>
