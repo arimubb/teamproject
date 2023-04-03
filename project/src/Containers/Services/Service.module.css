@@ -166,7 +166,8 @@ text-align: left;
 color: #828299;
 }
 @media screen and (max-width:375px) {
-    .lovka {   height: 200px;
+    .lovka {   
+height: 350px;
 width: 360px;
 left: 0px;
 top: 103px;
