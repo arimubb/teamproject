@@ -114,7 +114,7 @@ const Nav = ({}) => {
       <li><a className={styles.menu__item} href="#">Twitter</a></li>
     </ul>
 
-
+ 
 
               <input
                 id={styles.menu__toggle}
@@ -156,7 +156,9 @@ const Nav = ({}) => {
                   </a>
                 </li>
               </ul>
-            </div>  </div>
+            </div> 
+           </div>
+           
           
 
           <div className={styles.assetsSecondBlock}>
@@ -204,7 +206,7 @@ const Nav = ({}) => {
           </div>
         </div></div>
       </div>
-  
+ 
   )
 }
 
