@@ -166,11 +166,11 @@ const Nav = ({}) => {
               </button>
             </Customlink>
 
-            <Customlink to="/catalogs">
+            {/* <Customlink to="/catalogs">
               <button className={styles.catalog}>
                 Каталог товаров
               </button>
-            </Customlink>
+            </Customlink> */}
 
             <Customlink to="/services">
               <button className={styles.catalog}>

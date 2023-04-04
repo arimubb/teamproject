@@ -24,11 +24,11 @@ function ThirdCards(props,id) {
         <s className={styles.secondBlockText}>{props.text2}</s>
       </div>
       <div className={styles.hidden}>
-        <Link to='/catalogs'>
+        <Link to='/services'>
         <button className={styles.hiddenBtn}>Подробнее</button>
 
         </Link>
-        <Link to='/catalogs'>
+        <Link to='/services'>
         <p className={styles.hiddenLink}>
             Купить в 1 клик
           </p>

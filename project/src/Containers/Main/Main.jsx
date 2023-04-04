@@ -24,21 +24,14 @@ import Application from '../../Components/UI/Application/Application'
 import Imagecarousel from '../../Components/Slider/Imagecarousel'
 import Modal from './Modal/Modal'
 
-
-
-
-function Main  ()  {
-
+function Main() {
   const [modalActive, setModalActive] = useState(false)
   const [modalActiveS, setModalActiveS] = useState(false)
 
   return (
     <div className={styles.container}>
-      {/* <Carouselbox></Carouselbox> */}
-      {/* здесь должен быть слайдер */}
-<Imagecarousel></Imagecarousel>
+      <Imagecarousel />
 
-      {/* блок№1 Дизайнерские обои  */}
       <div className={styles.designContainer}>
         <div className={styles.firstCont}>
           <h2 className={styles.firstContText}>
@@ -72,17 +65,13 @@ function Main  ()  {
             степени обусловливает важность анализа
             существующих паттернов поведения.
           </p>
-          <Link to='/catalogs'>
-          <p className={styles.secondContLink}>
-            Показать больше ↑
-          </p>
+          <Link to="/services">
+            <p className={styles.secondContLink}>
+              Показать больше ↑
+            </p>
           </Link>
-          
         </div>
-
-
       </div>
-{/* блок№2 Карточки(первые) */}
       <div className={styles.firstCards}>
         <AlimCards
           to="/portfolio"
@@ -116,137 +105,231 @@ function Main  ()  {
           <img className={styles.img} src={foto4} alt="" />
         </AlimCards>
       </div>
-{/* блок№3 Наши услуги */}
       <div className={styles.serviceContainer}>
         <h2 className={styles.serviceContTitle}>
-        Наши услуги
+          Наши услуги
         </h2>
         <p className={styles.serviceContText}>
-        С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи.
+          С помощью опыта нашей команды преобразить любые
+          помещения не составит труда вне зависимости от
+          масштаба или сложности задачи.
         </p>
       </div>
-{/* блок№4 Карточки(вторые) */}
 
-        <div className={styles.secondCards}>
-
-        <SecondCards title = 'Создание уникального дизайна в квартире, доме, офисе' text='Итальянские технологии холодного трансфера и другие бесшовные покрытия.'>
+      <div className={styles.secondCards}>
+        <SecondCards
+          title="Создание уникального дизайна в квартире, доме, офисе"
+          text="Итальянские технологии холодного трансфера и другие бесшовные покрытия."
+        >
           <img className={styles.img2} src={foto5} alt="" />
         </SecondCards>
-        
-        <SecondCards title = 'Оформление офисов и коммерческих помещений в фирменном стиле' text='Итальянские технологии холодного трансфера и другие бесшовные покрытия.'>
+
+        <SecondCards
+          title="Оформление офисов и коммерческих помещений в фирменном стиле"
+          text="Итальянские технологии холодного трансфера и другие бесшовные покрытия."
+        >
           <img className={styles.img2} src={foto6} alt="" />
         </SecondCards>
 
-        <SecondCards title = 'Функциональный дизайн. Нанесение указателей, вывесок' text='Итальянские технологии холодного трансфера и другие бесшовные покрытия.'>
+        <SecondCards
+          title="Функциональный дизайн. Нанесение указателей, вывесок"
+          text="Итальянские технологии холодного трансфера и другие бесшовные покрытия."
+        >
           <img className={styles.img2} src={foto7} alt="" />
         </SecondCards>
 
-        <SecondCards title = 'Печать фотографий и коллажей' text='Итальянские технологии холодного трансфера и другие бесшовные покрытия.'>
+        <SecondCards
+          title="Печать фотографий и коллажей"
+          text="Итальянские технологии холодного трансфера и другие бесшовные покрытия."
+        >
           <img className={styles.img2} src={foto8} alt="" />
         </SecondCards>
-        </div>
+      </div>
 
-    {/* блок№5 Популярные товары */}
-        
-        <div className={styles.popularCont}>
-          <h2 className={styles.popularContText}>Популярные товары</h2>
-        </div>
+      <div className={styles.popularCont}>
+        <h2 className={styles.popularContText}>
+          Популярные товары
+        </h2>
+      </div>
 
-          <div className={styles.thirdCardsBtns}>
-            <button className={styles.buttons}>
-              Дизайнерские обои
-            </button>
-            <button className={styles.buttons}>
-              Виниловые обои 
-            </button>
-            <button className={styles.buttons}>
-              Фирменные обои
-            </button>
-          </div>
-          {/* блок№6 карточки3  */}
-        <div className={styles.thirdCards}>
-          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2' sale='-25%' famous='-' new='Новинка'>
-            <img src={foto9} alt="" />
-          </ThirdCards>
-          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2'sale='-25%' famous='Популярное' new='Новинка' >
-            <img src={foto10} alt="" />
-          </ThirdCards>
-          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2' sale='-25%' famous='Популярное' new='Новинка'>
-            <img src={foto11} alt="" />
-          </ThirdCards>
-          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2' sale='-25%' famous='Популярное' new='Новинка'>
-            <img src={foto12} alt="" />
-          </ThirdCards>
+      <div className={styles.thirdCardsBtns}>
+        <button className={styles.buttons}>
+          Дизайнерские обои
+        </button>
+        <button className={styles.buttons}>
+          Виниловые обои
+        </button>
+        <button className={styles.buttons}>
+          Фирменные обои
+        </button>
+      </div>
+      <div className={styles.thirdCards}>
+        <ThirdCards
+          title="Floraison"
+          text="от 2 552 ₽ / м2"
+          title2="Артикул: 11039"
+          text2="от 3 452 ₽ / м2"
+          sale="-25%"
+          famous="-"
+          new="Новинка"
+        >
+          <img src={foto9} alt="" />
+        </ThirdCards>
+        <ThirdCards
+          title="Floraison"
+          text="от 2 552 ₽ / м2"
+          title2="Артикул: 11039"
+          text2="от 3 452 ₽ / м2"
+          sale="-25%"
+          famous="Популярное"
+          new="Новинка"
+        >
+          <img src={foto10} alt="" />
+        </ThirdCards>
+        <ThirdCards
+          title="Floraison"
+          text="от 2 552 ₽ / м2"
+          title2="Артикул: 11039"
+          text2="от 3 452 ₽ / м2"
+          sale="-25%"
+          famous="Популярное"
+          new="Новинка"
+        >
+          <img src={foto11} alt="" />
+        </ThirdCards>
+        <ThirdCards
+          title="Floraison"
+          text="от 2 552 ₽ / м2"
+          title2="Артикул: 11039"
+          text2="от 3 452 ₽ / м2"
+          sale="-25%"
+          famous="Популярное"
+          new="Новинка"
+        >
+          <img src={foto12} alt="" />
+        </ThirdCards>
 
-          <ThirdCards id='first' title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2' sale='-15%' famous='-' new='--'>
-            <img src={foto12} alt="" />
-          </ThirdCards>
-          <ThirdCards title='Floraison' text='от 2 552 ₽ / м2' title2 ='Артикул: 11039' text2='от 3 452 ₽ / м2'>
-            <img src={foto12} alt="" />
-          </ThirdCards>
-          
-        </div>
-{/* блок№7 смотреть  товары */}
-        <Link to='/catalogs'>
-          <p className={styles.showProducts}>
+        <ThirdCards
+          id="first"
+          title="Floraison"
+          text="от 2 552 ₽ / м2"
+          title2="Артикул: 11039"
+          text2="от 3 452 ₽ / м2"
+          sale="-15%"
+          famous="-"
+          new="--"
+        >
+          <img src={foto12} alt="" />
+        </ThirdCards>
+        <ThirdCards
+          title="Floraison"
+          text="от 2 552 ₽ / м2"
+          title2="Артикул: 11039"
+          text2="от 3 452 ₽ / м2"
+        >
+          <img src={foto12} alt="" />
+        </ThirdCards>
+      </div>
+      <Link to="/services">
+        <p className={styles.showProducts}>
           Смотреть все товары
-          </p>
-          </Link>
-{/* блок№8 место */}
-          <div className={styles.placeCont}>
+        </p>
+      </Link>
+      <div className={styles.placeCont}>
         <h2 className={styles.placeContTitle}>
-        Место применения
+          Место применения
         </h2>
         <p className={styles.placeContText}>
-        С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи.
+          С помощью опыта нашей команды преобразить любые
+          помещения не составит труда вне зависимости от
+          масштаба или сложности задачи.
         </p>
       </div>
 
-    {/* блок№9 карточки с модальным окном */}
-    <div className={styles.forthCards}>
-       <button className={styles.btn4Card} onClick={() => setModalActive(true)}>
-        <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
-        <img className={styles.foto13} src={foto13} alt=""/> 
-        </ForthCards>
-       </button>
-      
-      <button className={styles.btn4Card} onClick={()=> setModalActiveS(true)}>
-        <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
-        <img className={styles.foto13}  src={foto14} alt=""/> 
-        </ForthCards>
-      </button>
-        
-        
-        <button className={styles.btn4Card} onClick={() => setModalActive(true)}>
-          <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
-        <img className={styles.foto13}  src={foto13} alt=""/> 
-        </ForthCards>
+      <div className={styles.forthCards}>
+        <button
+          className={styles.btn4Card}
+          onClick={() => setModalActive(true)}
+        >
+          <ForthCards
+            title="Жилые помещения"
+            text="Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены."
+          >
+            <img
+              className={styles.foto13}
+              src={foto13}
+              alt=""
+            />
+          </ForthCards>
         </button>
-        
-        <button className={styles.btn4Card} onClick={() => setModalActiveS(true)}>
-          <ForthCards title='Жилые помещения' text='Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.'>
-        <img className={styles.foto13}  src={foto14} alt=""/> 
-        </ForthCards>
+
+        <button
+          className={styles.btn4Card}
+          onClick={() => setModalActiveS(true)}
+        >
+          <ForthCards
+            title="Жилые помещения"
+            text="Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены."
+          >
+            <img
+              className={styles.foto13}
+              src={foto14}
+              alt=""
+            />
+          </ForthCards>
         </button>
-        
 
-        <Modal active={modalActive} setActive={setModalActive} > 
-        {foto13}
+        <button
+          className={styles.btn4Card}
+          onClick={() => setModalActive(true)}
+        >
+          <ForthCards
+            title="Жилые помещения"
+            text="Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены."
+          >
+            <img
+              className={styles.foto13}
+              src={foto13}
+              alt=""
+            />
+          </ForthCards>
+        </button>
+
+        <button
+          className={styles.btn4Card}
+          onClick={() => setModalActiveS(true)}
+        >
+          <ForthCards
+            title="Жилые помещения"
+            text="Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены."
+          >
+            <img
+              className={styles.foto13}
+              src={foto14}
+              alt=""
+            />
+          </ForthCards>
+        </button>
+
+        <Modal
+          active={modalActive}
+          setActive={setModalActive}
+        >
+          {foto13}
         </Modal>
-       
-        <Modal active={modalActiveS} setActive={setModalActiveS} > 
-        {foto14}
+
+        <Modal
+          active={modalActiveS}
+          setActive={setModalActiveS}
+        >
+          {foto14}
         </Modal>
-    </div>
-
-
-      {/* блок№10 заявка */}
-        <div className={styles.Application}>
-          <Application></Application>
-        </div>
-      
-
       </div>
+
+      <div className={styles.Application}>
+        <Application></Application>
+      </div>
+    </div>
   )
 }
 

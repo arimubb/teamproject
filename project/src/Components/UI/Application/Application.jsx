@@ -41,14 +41,14 @@ function Application() {
         </div>
 
         <div className={styles.block1Third}>
-          <Link to="/catalogs">
+          <Link to="/services">
             <button className={styles.btn}>
               Отправить заявку
             </button>
           </Link>
           <p className={styles.opisanie}>
             Нажимая «отправить», я даю согласие{' '}
-            <a href="/catalogs">
+            <a href="/services">
               на обработку персональных данных
             </a>
           </p>

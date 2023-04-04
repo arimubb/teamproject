@@ -11,7 +11,7 @@ function SecondCards(props,to) {
         </div>
         <h6 className={styles.title}>{props.title}</h6>
         <p className={styles.text}>{props.text}</p>
-        <Link to="/catalogs">
+        <Link to="/services">
         <p className={styles.link} >Узнать подробности</p>
         </Link>
         
