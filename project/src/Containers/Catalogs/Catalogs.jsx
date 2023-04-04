@@ -2,7 +2,7 @@ import React from 'react'
 
 const Catalogs = () => {
   return (
-    <div>Catalogs</div>
+    <div>TUT NOTHING</div>
   )
 }
 
