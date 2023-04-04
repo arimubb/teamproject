@@ -435,5 +435,12 @@ a {
     font-size: 14px;
     width: 334px;
   }
+  #aboutRewiew2{
+display: block;
+  }
+  .rewVideo2{
+    Height:590;
+    Width:334px;
+  }
   
   }
