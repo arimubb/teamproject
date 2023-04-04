@@ -7,15 +7,11 @@ const Imagecarousel = () => {
     const btnpressprev = () => {
         let width = box.clientWidth;
         box.scrollLeft = box.scrollLeft - width;
-        // box.style.left = box.scrollLeft + 'px'
-        // box.style.transition = 20000 + 'ms'
         console.log(width);
     }
     const btnpressnext = () => {
         let width = box.clientWidth;
         box.scrollLeft = box.scrollLeft + width;
-        // box.style.left = box.scrollLeft + 'px'
-
         console.log(width);
     }
 

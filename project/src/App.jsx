@@ -13,7 +13,6 @@ import Service from './Containers/Services/Service'
 import Service_detal from './Containers/Services/Service_detal'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="container">
@@ -22,7 +21,6 @@ function App() {
         <Route path="/" element={<Main/>}/>
         <Route path='/' element={<Main/>}/>
         <Route path="/main" element={<Main/>}/>
-        <Route path="/catalogs" element={<Catalogs/>}/>
         <Route path="/services" element={<Service/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/blog" element={<Blog/>}/>
