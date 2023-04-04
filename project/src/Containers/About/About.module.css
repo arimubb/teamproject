@@ -36,7 +36,7 @@
 }
 .aboutInfoTitle {
   width: 830px;
-  height: 43px;
+  height: 44px;
   margin-top: 20px;
 }
 .aboutH2{
@@ -434,6 +434,13 @@ a {
     font-weight: 400;
     font-size: 14px;
     width: 334px;
+  }
+  #aboutRewiew2{
+display: block;
+  }
+  .rewVideo2{
+    Height:590;
+    Width:334px;
   }
   
   }

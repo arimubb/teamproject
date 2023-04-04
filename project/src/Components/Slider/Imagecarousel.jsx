@@ -7,7 +7,7 @@ const Imagecarousel = () => {
     const btnpressprev = () => {
         let width = box.clientWidth;
         box.scrollLeft = box.scrollLeft - width;
-        console.log(width);
+        console.log(width)
     }
     const btnpressnext = () => {
         let width = box.clientWidth;
