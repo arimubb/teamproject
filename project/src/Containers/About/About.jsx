@@ -12,7 +12,7 @@ import rewiew2 from '../../../public/imgBelya/about-studio-image.png'
 import ouractivity1 from '../../../public/imgBelya/activity-image-1.png'
 import ouractivity2 from '../../../public/imgBelya/activityimage2.png'
 import aboutCardApplication from '../../../public/imgBelya/hareImg.png'
-// import ApplicationVector from '../../../public/iconsBelya/vector (2).png'
+
 
 
 const About = () => {
@@ -78,13 +78,13 @@ const About = () => {
    <p className={styles.rewText1}>Разнообразный и богатый опыт говорит нам, что внедрение современных методик представляет собой интересный эксперимент проверки кластеризации усилий. Предварительные выводы неутешительны: базовый вектор развития создаёт предпосылки для дальнейших направлений развития. Не следует, однако, забывать, что граница обучения кадров прекрасно подходит для реализации своевременного выполнения сверхзадачи. Разнообразный и богатый опыт говорит нам, что высокое качество позиционных исследований, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для позиций, занимаемых участниками в отношении поставленных задач.</p></div>
   </div>
   
-    <div className={styles.aboutRewiew2}>
+    <div id={styles.aboutRewiew2} className={styles.aboutRewiew2}>
       <img className={styles.rewVideo2} src={rewiew2} alt="" />
    <div className={styles.aboutRewtext2}><h2 className={styles.rewTitle2}>Дизайнерские обои для дома и бизнеса</h2>
    <p className={styles.rewText2}>Разнообразный и богатый опыт говорит нам, что внедрение современных методик представляет собой интересный эксперимент проверки кластеризации усилий. Предварительные выводы неутешительны: базовый вектор развития создаёт предпосылки для дальнейших направлений развития. Не следует, однако, забывать, что граница обучения кадров прекрасно подходит для реализации своевременного выполнения сверхзадачи. Разнообразный и богатый опыт говорит нам, что высокое качество позиционных исследований, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для позиций, занимаемых участниками в отношении поставленных задач.</p></div>
    </div>
    
-  <div className={styles.aboutOurActivity}>
+  {/* <div className={styles.aboutOurActivity}>
     <div className={styles.OurTextCon}>
       <h2 className={styles.OurTitle}>Наша активность</h2>
       <p className={styles.OurText}>Наша команда принимает активное участие в бизнес-мероприятиях, внося вклад в развитие отрасли вертикальной печати в России</p>
@@ -120,7 +120,7 @@ const About = () => {
      <div className={styles.image}>
       <img className={styles.img3} src={aboutCardApplication} alt=""/>
      </div>
-      </div>
+      </div> */}
 
 
 
